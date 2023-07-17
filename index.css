@@ -12,10 +12,23 @@ header {
 }
 
 .header__logo {
-	color: black;
-	/* text-decoration-line: underline; */
-	font-weight: bold;
+	color: rgba(var(--colorA));
+
+	font-size: 1.5em;
+	font-family: Inconsolata;
+	line-height: 0.8;
+	/* line-height: 0.9;
+	letter-spacing: 1px; */
 }
+
+/* https://angel-rs.github.io/css-color-filter-generator/ */
+/* https://www.w3schools.com/colors/colors_converter.asp */
+/* .header__logo {
+	height: 40px;
+	aspect-ratio: 3 / 2;
+	filter: hue-rotate(226deg) saturate(33%) brightness(100%);
+} */
+
 
 .header__links {
 	display: flex;
@@ -32,17 +45,22 @@ header {
 }
 
 .header__action-item-text {
-	color: black;
+	color: rgba(var(--colorA));
 	text-decoration-line: none;
+	/* font-weight: bold; */
+	/* font-weight: normal; */
+	font-size: 1.25em;
+	font-family: Inconsolata;
 }
 
 
 
 .hero {
-	height: 700px;
+	/* height: 700px; */
+	height: 80%;
 	overflow: hidden;
 
-	background-image: url("background1.png");
+	background-image: url("hero background.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -52,14 +70,7 @@ header {
 	width: 100%;
 	height: 100%;
 
-	/* background: rgba(232, 197, 71, 0.25); */
-	/* color: white; */
-
-	/* background: linear-gradient(90deg, rgba(var(--color-rgb),1) 0%, rgba(var(--color-rgb),0) 50%); */
-	/* background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); */
-	/* color: var(--color1); */
-
-	background: rgba(36, 41, 67, 0.9);
+	/* background: rgba(var(--color-bg), 0.9); */
 	color: white;
 
 
@@ -71,19 +82,27 @@ header {
 }
 
 .hero__side > h1 {
-	padding: 24px 0;
+	padding: 12px 0;
 	margin: 0 10%;
 	font-size: 3.5em;
 	font-weight: bold;
 
 	border-bottom: solid 3px white;
 	width: auto;
+
+	font-family: Libre Baskerville;
 }
 
 .hero__side > h3 {
-	padding: 32px 0;
+	padding: 12px 0;
 	margin: 0 10%;
-	font-size: 1.5em;
+	font-size: 1.25em;
+
+	padding-left: 3px;
+
+	font-family: Inconsolata;
+	/* font-weight: normal;
+	font-family: Inconsolata Regular; */
 }
 
 
@@ -91,25 +110,6 @@ header {
 
 
 
-
-
-/* .projects {
-	background: white;
-	padding: 32px 12px;
-}
-
-.projects__grid {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 12px;
-}
-
-.projects__overview-item {
-	background: gray;
-	flex-grow: 1;
-	width: 400px;
-	height: 400px;
-} */
 
 
 
@@ -117,17 +117,18 @@ header {
 
 .projects {
 	background: white;
-	padding: 32px 12px;
+	/* padding: 0 32px; */
+	margin: 0 10%;
 }
 
 .projects__grid {
 	display: grid;
-	grid-gap: 12px;
+	grid-gap: 16px;
 }
 
 @media all {
 	.projects__grid {
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 	}
 }
 @media (max-width: 1200px) {
@@ -143,34 +144,144 @@ header {
 
 
 .projects__overview-item {
-	background: gray;
+	background: rgba(var(--colorA));
 	width: 100%;
 	aspect-ratio: 3 / 2;
 	color: white;
 
 	position: relative;
-	
-	
+
+	overflow: hidden;
+
+	border-radius: 2px;
+
+	/* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); */
+}
+
+
+
+.projects__overview-background {
+	width: 100%;
+	height: 100%;
+
+	position: absolute;
+
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+
+	transition: transform 1s ease;
+}
+.projects__overview-background:hover {
+	/* transform: scale(1.05); */
+	transform: scale(1.5);
 }
 
+
+
+.projects__overview-background:hover > .projects__overview-overlay {
+	/* opacity: 0%; */
+}
 .projects__overview-overlay {
 	width: 100%;
 	height: 100%;
+
+	opacity: 80%;
+	background: black;
+	transition: opacity 0.5s ease;
+
 }
 
+.projects__overview-description {
+	position: absolute;
+
+	pointer-events: none;
+
+	padding: 10%;
+
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	align-items: flex-start;
+	/* justify-content: center; */
+	justify-content: flex-start;
+}
+
+.projects__overview-description > h4 {
+	font-weight: lighter;
+	font-size: 2em;
+	
+	font-family: Libre Baskerville;
+
+	/* border-bottom: solid 2px white; */
+	/* min-width: 250px; */
+	/* padding-bottom: 12px; */
+	/* margin-bottom: 16px; */
+	margin-bottom: 6px;
+}
+
+.projects__overview-description > h5 {
+	/* font-weight: lighter; */
+	font-size: 1.25em;
+
+	/* color: rgba(255, 255, 255, 0.75); */
+
+	font-weight: normal;
+	font-family: Inconsolata Regular;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 h2 {
-	padding: 3px 0;
-	font-size: 3em;
-	font-weight: bold;
 
-	border-bottom: solid 3px black;
+	padding-top: 5px;
+	padding-bottom: 3px;
+
+	font-size: 1.5em;
+	/* font-weight: bold; */
+	font-weight: normal;
+	color: rgba(var(--colorA));
+	text-align: center;
+
+	border-color: rgba(var(--colorA));
+	/* border-width: 4px; */
+	border-top: solid;
+	border-bottom: solid;
+	border-width: 3px;
+
 	width: auto;
-
-	padding-left: 12px;
+	margin-top: 48px;
 	margin-bottom: 32px;
+
+
+	font-family: Libre Baskerville;
+
+
+	/* box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); */
+
+	
 }
 
 

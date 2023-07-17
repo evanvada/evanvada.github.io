@@ -8,7 +8,31 @@
 	--color-rgb: 77, 80, 97;
 	/* --color-rgb: 205, 209, 196; */
 	/* --color-rgb: 255, 255, 255; */
+
+	--color-bg: 35, 49, 94;
+	/* --colorA: 54, 66, 107; */
+	--colorA: 64, 64, 64;
 }
+
+
+
+@font-face {
+	font-family: "Inconsolata Regular";
+	src: url("Inconsolata-Regular.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Inconsolata";
+	src: url("Inconsolata-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Libre Baskerville";
+    src: url("LibreBaskerville-Bold.woff2") format("woff2");
+}
+
+
+
 
 
 
@@ -25,7 +49,6 @@
 	box-sizing: border-box;
 
 	word-wrap: break-word;
-	font-family: Calibri, sans-serif;
 	font-size: 1em;
 }
 
