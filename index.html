@@ -11,27 +11,25 @@
 <body>
 
 	<!-- HEADER -->
-	<section class="header">
+	<header class="header">
 		<a href="" class="header__link"><div class="header__link-logo">EVAN<br>VADA</div></a>
-		<div class="header__links">
+		<nav class="header__links">
 			<a href="" class="header__link"><div class="header__link-text">PORTFOLIO</div></a>
 			<a href="" class="header__link"><div class="header__link-text">À_PROPOS</div></a>
-			<a href="" class="header__link"><div class="header__link-text">CONTACT</div></a>
-		</div>
-	</section>
+			<a href="" class="header__link"><div class="header__link-text">COMMENÇONS</div></a>
+		</nav>
+	</header>
 
 	<!-- HERO -->
-	<section class="hero">
+	<section class="hero dither-bottom">
 		<div class="hero__side">
 			<h1>DÉVELOPPEUR FULLSTACK</h1>
-			<h2>Passionné et polyvalent, hâte de travailler ensemble sur un projet unique</h2>
+			<h3>Passionné et polyvalent, hâte de travailler ensemble sur un projet unique</h3>
 			<input type="button" value="> Contacter">
 		</div>
-		<div class="hero__gradient"></div>
 	</section>
 
 	<!-- PRTFOLIO -->
-
 	<section class="portfolio">
 		<h2>PORTFOLIO</h2>
 		<div class="portfolio__grid">
@@ -43,10 +41,36 @@
 	</section>
 
 	<!-- ABOUT -->
-
 	<section class="about">
-		<div class="about__side"></div>
-		<div class="about__portrait"></div>
+		<div class="about__side">
+			<h2>À PROPOS</h2>
+			<span>
+			C'est trop proche <br>
+			C'est à voir</span>
+		</div>
+		<div class="about__portrait dither-top dither-bottom"></div>
+		<div class="decorative-line"></div>
 	</section>
+
+	<!-- FOOTER -->
+	<footer class="footer">
+		<div class="footer__send">
+			<h2 class="white">CONTACTER</h2>
+			<form>
+				<label for="email">> EMAIL</label>
+				<input id="email" type="email" required>
+				<label for="message">> MESSAGE</label>
+				<textarea id="message" required></textarea>
+				<input type="submit" value="> Envoyer">
+				<!-- <span>Envoyez moi un message avec votre email et je vous recontacterai</span> -->
+			</form>
+		</div>
+		<div class="footer__overview">
+			<div class="decorative-line white"></div>
+		</div>
+		<div class="footer__socials">
+			<div class="decorative-line white"></div>
+		</div>
+	</footer>
 </body>
 </html>

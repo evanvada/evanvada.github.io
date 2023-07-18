@@ -7,6 +7,8 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+
+	z-index: 1;
 }
 
 .header__links {
@@ -66,6 +68,7 @@
 .hero {
 	height: 80%;
 	overflow: hidden;
+	position: relative;
 	
 	background-image: url("hero background.png");
 	background-size: cover;
@@ -91,9 +94,10 @@
 	font-size: 3.5em;
 
 	border-bottom: solid 3px white;
+	padding-bottom: 6px;
 }
 
-.hero__side > h2 {
+.hero__side > h3 {
 	font-family: Inconsolata;
 	font-size: 1.25em;
 	margin-top: 24px;
@@ -121,18 +125,6 @@
 	border-radius: 25px;
 	background: rgba(14, 56, 79, 0.5);
 }
-
-.hero__gradient {
-	position: relative;
-	width: 100%;
-	height: 24px;
-	top: -24px;
-
-	background: url("dither.png");
-	background-size: auto 48px;
-}
-
-
 
 
 
@@ -165,23 +157,6 @@
 	padding-top: 64px;
 }
 
-.portfolio > h2 {
-	font-family: Libre Baskerville;
-	font-size: 2em;
-	color: black;
-
-	align-items: center;
-	display: flex;
-	margin-bottom: 32px;
-}
-.portfolio > h2:after {
-	content: "";
-	flex-grow: 1;
-	height: 3px;
-	background-color: black;
-	margin-left: 12px;
-}
-
 .portfolio__grid {
 	display: grid;
 	grid-gap: 20px;
@@ -205,10 +180,6 @@
 }
 
 .portfolio-project__side > h3 {
-
-}
-
-.portfolio-project__side > h4 {
 
 } */
 
@@ -240,16 +211,20 @@
 
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
-
 .about__portrait {
-	aspect-ratio: 1 / 1;
+	aspect-ratio: 5 / 6;
 	height: 600px;
 
 	flex-grow: auto;
 
 	background-color: green;
+
+	overflow: hidden;
+
+	position: relative;
 }
 
 .about__side {
@@ -257,13 +232,22 @@
 
 	flex-grow: 1;
 
-	background-color: whitesmoke;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+
+	/* background-color: whitesmoke; */
+
+	padding-right: 20px;
+
+	font-size: 1.25rem;
+	font-family: Inconsolata;
 }
 
-.about__side > h2 {
-	
-}
 
+
+
+/* 
 .about__side > h3 {
 	
 }
@@ -271,6 +255,7 @@
 .about__side > p {
 	
 }
+ */
 
 
 
@@ -293,3 +278,104 @@
 
 
 
+
+
+
+
+.footer {
+	padding: 0 10%;
+	padding-top: 64px;
+	padding-bottom: 64px;
+
+	background: #222;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 0 80px;
+}
+
+.footer__overview {
+	/* background: red; */
+	flex-grow: 1;
+}
+
+.footer__socials {
+	/* background: green; */
+	flex-grow: 1;
+}
+
+.footer__send {
+	/* background: blue; */
+	width: 40em;
+}
+
+.footer__send > form {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+
+	color: #fff;
+	font-size: 1.25rem;
+	font-family: Inconsolata;
+}
+
+
+.footer__send > form > label {
+	/* line-height: 2rem; */
+	padding: 0.5em 0;
+}
+
+.footer__send > form > input[type="email"] {
+	font-size: 1.25rem;
+	font-family: Inconsolata Regular;
+	padding: 0.25em 0.5em;
+
+	color: #fff;
+	background: #333;
+	border-left: solid 3px #fff;
+}
+
+.footer__send > form > textarea {
+	width: 100%;
+	height: 10em;
+	font-size: 1.25rem;
+	font-family: Inconsolata Regular;
+	resize: none;
+	padding: 0.25em 0.5em;
+
+	color: #fff;
+	background: #333;
+	border-left: solid 3px #fff;
+}
+
+.footer__send > form > input[type="submit"] {
+	font-family: Inconsolata;
+	font-size: 1.25rem;
+	color: #fff;
+	
+	background: none;
+	border: solid 3px #fff;
+	width: 50%;
+	height: 50px;
+	margin-top: 24px;
+
+	text-align: left;
+	padding-left: 24px;
+
+	transition: border-radius 0.2s ease, background 0.2s ease, padding-left 0.2s ease;
+}
+
+.footer__send > form > input[type="submit"]:hover {
+	cursor: pointer;
+	padding-left: 64px;
+	border-radius: 25px;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.footer__send > form > span {
+	font-size: 1rem;
+	margin-top: 12px;
+	color: #666;
+	font-family: Inconsolata Regular;
+}
