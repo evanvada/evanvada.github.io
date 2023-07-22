@@ -1,16 +1,16 @@
 @font-face {
 	font-family: "Inconsolata Regular";
-	src: url("Inconsolata-Regular.woff2") format("woff2");
+	src: url("fonts/Inconsolata-Regular.woff2") format("woff2");
 }
 
 @font-face {
 	font-family: "Inconsolata";
-	src: url("Inconsolata-SemiBold.woff2") format("woff2");
+	src: url("fonts/Inconsolata-SemiBold.woff2") format("woff2");
 }
 
 @font-face {
     font-family: "Libre Baskerville";
-    src: url("LibreBaskerville-Bold.woff2") format("woff2");
+    src: url("fonts/LibreBaskerville-Bold.woff2") format("woff2");
 }
 
 
@@ -29,6 +29,7 @@
 
 	word-wrap: break-word;
 	font-size: 1em;
+	line-height: 1em;
 }
 
 html, body {
@@ -38,5 +39,110 @@ html, body {
 	color: #000;
 	background: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dither-top:before {
+	position: absolute;
+	width: 100%;
+	height: 48px;
+	top: -24px;
+	content: "";
+	display: block;
+
+	background: url("media/dither.png");
+	background-size: auto 48px;
+}
+
+.dither-bottom:after {
+	position: absolute;
+	width: 100%;
+	height: 48px;
+	bottom: -24px;
+	content: "";
+	display: block;
+
+	background: url("media/dither.png");
+	background-size: auto 48px;
+}
+
+
+
+
+
+
+
+
+
+h2 {
+	font-family: Libre Baskerville;
+	font-size: 2em;
+	color: black;
+	
+	margin-bottom: 32px;
+	align-items: center;
+	display: flex;
+}
+
+h2:after {
+	content: "";
+	flex-grow: 1;
+	height: 3px;
+	background: black;
+	margin-left: 12px;
+}
+
+
+.decorative-line {
+	width: 100%;
+	height: 2em;
+
+	display: flex;
+	align-items: center;
+}
+.decorative-line:after {
+	content: "";
+
+	height: 3px;
+	background: black;
+	width: 100%;
+	display: block;
+}
+
+
+
+.white {
+	color: white;
+}
+.white::after {
+	background: white;
+}
+
+
+
+
+
+
+
+
+
+
 
 
