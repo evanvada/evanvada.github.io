@@ -1,0 +1,33 @@
+
+
+
+.icon {
+	background-position: center;
+	background-size: cover;
+	width: 32px;
+	height: 32px;
+}
+
+.icon.burger {
+	background-image: url("../../media/burger.png");
+}
+
+.icon.cross {
+	background-image: url("../../media/cross.png");
+}
+
+.icon.house {
+	background-image: url("../../media/house.png");
+}
+
+.icon.magnify {
+	background-image: url("../../media/magnify.png");
+}
+
+.icon.mail {
+	background-image: url("../../media/mail.png");
+}
+
+
+
+

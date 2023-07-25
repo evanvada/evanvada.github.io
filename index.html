@@ -3,36 +3,63 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="base.css">
+	<meta name="viewport" content="width=device-width, height=device-height">
+
+
+	<link rel="stylesheet" href="style/base/vars.css">
+	<link rel="stylesheet" href="style/base/base.css">
+	<link rel="stylesheet" href="style/base/fonts.css">
+
+	<link rel="stylesheet" href="style/components/decorative-line.css">
+	<link rel="stylesheet" href="style/components/fat-button.css">
+	<link rel="stylesheet" href="style/components/icons.css">
+	<link rel="stylesheet" href="style/components/dither.css">
+	<link rel="stylesheet" href="style/components/tags.css">
+
+	<link rel="stylesheet" href="style/layouts/header.css">
+	<link rel="stylesheet" href="style/layouts/hero.css">
+
 	<link rel="stylesheet" href="index.css">
+
 	<title>Portfolio Evan</title>
 </head>
 <body>
 
 	<!-- HEADER -->
 	<header class="header">
-		<a href="" class="header__link"><div class="header__link-logo">EVAN<br>VADA</div></a>
-		<nav class="header__links">
-			<a href="" class="header__link"><div class="header__link-text">PORTFOLIO</div></a>
-			<a href="" class="header__link"><div class="header__link-text">À_PROPOS</div></a>
-			<a href="" class="header__link"><div class="header__link-text">COMMENÇONS</div></a>
-		</nav>
+		<div class="header__top">
+			<a href="" class="header__top-element"><div class="header__logo">EVAN<br>VADA</div></a>
+			<div class="header__top-element header__burger"><div class="burger icon"></div></div>
+			<nav class="header__desktop-nav">
+				<a href="" class="header__top-element"><span>PORTFOLIO</span></a>
+				<a href="" class="header__top-element"><span>À_PROPOS</span></a>
+				<a href="" class="header__top-element"><span>CONTACT</span></a>
+			</nav>
+		</div>
+		<div class="header__side">
+			<nav class="header__mobile-nav">
+				<a href="" class="header__side-element"><div class="house icon"></div><span>> PORTFOLIO</span><span>></span></a>
+				<a href="" class="header__side-element"><div class="magnify icon"></div><span>> À_PROPOS</span><span>></span></a>
+				<a href="" class="header__side-element"><div class="mail icon"></div><span>> CONTACT</span><span>></span></a>
+			</nav>
+		</div>
 	</header>
+
+
 
 	<!-- HERO -->
 	<section class="hero dither-bottom">
 		<div class="hero__bg"></div>
 		<div class="hero__side">
-			<h1>DÉVELOPPEUR FULLSTACK</h1>
+			<h1>DÉV FULLSTACK</h1>
 			<h3>Passionné et polyvalent, hâte de travailler ensemble sur un projet unique</h3>
-			<input type="button" value="> Contacter">
+			<input class="fat-button" type="button" value="> Contacter">
 		</div>
 	</section>
 
 	<!-- PRTFOLIO -->
 	<section class="portfolio">
-		<h2>PORTFOLIO</h2>
+		<h2 class="after-line">PORTFOLIO</h2>
 		<div class="portfolio__grid">
 			<div class="portfolio-project"></div>
 			<div class="portfolio-project"></div>
@@ -56,7 +83,7 @@
 
 
 	<!-- ABOUT -->
-	<section class="about">
+	<!-- <section class="about">
 		<div class="about__side">
 			<h2>À PROPOS</h2>
 			<p>Passion jeune depuis ça</p>
@@ -68,10 +95,10 @@
 		</div>
 		<div class="about__portrait dither-top dither-bottom"></div>
 		<div class="decorative-line"></div>
-	</section>
+	</section> -->
 
 	<!-- BOTTOM HERO -->
-	<section class="bottom-hero dither-top">
+	<!-- <section class="bottom-hero dither-top">
 		<div class="bottom-hero__bg"></div>
 		<div class="bottom-hero__send">
 			<h2 class="white">CONTACTEZ MOI</h2>
@@ -83,15 +110,15 @@
 				<input type="submit" value="> Envoyer">
 			</form>
 		</div>
-		<!-- <div class="footer__overview">
+		<div class="footer__overview">
 			<div class="decorative-line white"></div>
 		</div>
 		<div class="footer__socials">
 			<div class="decorative-line white"></div>
-		</div> -->
+		</div>
 	</section>
 	<div style="height: 80px; background: #333;">
-	</div>
+	</div> -->
 	
 	<script src="main.js"></script>
 </body>
