@@ -1,0 +1,27 @@
+
+
+.dither-top::before {
+	position: absolute;
+	display: block;
+	content: "";
+	width: 100%;
+	height: 48px;
+	top: -24px;
+
+	background: url("../../media/dither.png");
+	background-size: auto 48px;
+}
+
+.dither-bottom::after {
+	position: absolute;
+	display: block;
+	content: "";
+	width: 100%;
+	height: 48px;
+	bottom: -24px;
+
+	background: url("../../media/dither.png");
+	background-size: auto 48px;
+}
+
+

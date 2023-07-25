@@ -1,49 +1,4 @@
 
-.header {
-	background: #fff;
-	height: 64px;
-	position: absolute;
-
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-
-	z-index: 1;
-}
-
-.header__links {
-	height: 100%;
-	display: flex;
-	align-items: center;
-	padding: 0 12px;
-}
-
-.header__link {
-	height: 100%;
-	display: flex;
-	align-items: center;
-	text-decoration-line: none;
-	padding: 0 12px;
-
-	color: #000;
-}
-
-.header__link-logo {
-	font-size: 1.5em;
-	font-family: Inconsolata;
-	line-height: 0.8;
-}
-
-.header__link-text {
-	font-family: Inconsolata;
-	font-size: 1.2em;
-}
-
-
-
-
-
-
 
 
 
@@ -87,7 +42,7 @@
 	width: 100%;
 	height: 100%;
 	padding: 0 10%;
-	padding-top: 64px;
+	padding-top: var(--header-height);
 
 	color: #fff;
 
@@ -100,7 +55,7 @@
 	font-family: Libre Baskerville;
 	font-size: 3.5em;
 
-	border-bottom: solid 3px white;
+	border-bottom: solid var(--stroke-size) white;
 	padding-bottom: 6px;
 }
 
@@ -109,7 +64,7 @@
 	font-size: 1.25em;
 	margin-top: 24px;
 }
-
+/* 
 .hero__side > input[type="button"] {
 	font-family: Inconsolata;
 	font-size: 1.25em;
@@ -131,7 +86,7 @@
 	padding-left: 64px;
 	border-radius: 25px;
 	background: rgba(14, 56, 79, 0.5);
-}
+} */
 
 
 
@@ -222,8 +177,8 @@
 }
 
 .about__portrait {
-	aspect-ratio: 5 / 6;
-	height: 600px;
+	aspect-ratio: 1 / 1;
+	width: 600px;
 
 	flex-grow: auto;
 

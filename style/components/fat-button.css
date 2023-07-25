@@ -1,0 +1,25 @@
+
+
+
+.fat-button {
+	font-family: Inconsolata;
+	font-size: 1.25em;
+	color: #fff;
+	
+	background: none;
+	border: solid var(--stroke-size) #fff;
+	width: 400px;
+	height: 50px;
+
+	text-align: left;
+	padding-left: 24px;
+	transition: border-radius 0.2s ease, background 0.2s ease, padding-left 0.2s ease;
+}
+
+.fat-button:hover {
+	cursor: pointer;
+	padding-left: 64px;
+	border-radius: 25px;
+	background: rgba(0, 0, 0, 0.5);
+}
+
