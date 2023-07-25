@@ -3,7 +3,7 @@
 
 .fat-button {
 	font-family: Inconsolata;
-	font-size: 1.25em;
+	font-size: var(--h3-size);
 	color: #fff;
 	
 	background: none;

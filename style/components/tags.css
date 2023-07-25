@@ -2,7 +2,7 @@
 
 h2 {
 	font-family: Libre Baskerville;
-	font-size: 2em;
+	font-size: var(--h2-size);
 	color: black;
 	margin-bottom: 32px;
 }

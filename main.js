@@ -17,19 +17,23 @@ window.addEventListener('scroll', function() {
 
 let burger = document.querySelector('.header__burger')
 let menu = document.querySelector('.header__side')
+let icon = document.querySelector('.header__burger .icon');
 
 burger.addEventListener('click', () => {
-	// menu.classList.toggle('show')
 	
 	if (menu.classList.contains('show')) {
 		menu.classList.remove('show');
-		// document.body.style.overflow = 'auto';
+		icon.classList.remove('cross');
+		icon.classList.add('burger');
 	} else {
 		menu.classList.add('show');
-		// document.body.style.overflow = 'hidden';
+		icon.classList.remove('burger');
+		icon.classList.add('cross');
 	}
 	
 });
+
+
 
 
 
