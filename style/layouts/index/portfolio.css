@@ -1,0 +1,51 @@
+
+
+
+.portfolio {
+	background: #fff;
+	padding: 32px var(--lateral-padding);
+}
+
+.portfolio > h2 {
+	padding-bottom: 24px;
+}
+
+.portfolio__grid {
+	display: grid;
+	grid-gap: 18px;
+	grid-template-columns: 1fr 1fr;
+}
+
+.portfolio-project {
+	overflow: hidden;
+	width: 100%;
+	aspect-ratio: 3 / 2;
+
+	background: blue;
+}
+
+/* .portfolio-project__background {
+
+}
+
+.portfolio-project__side {
+
+}
+
+.portfolio-project__side > h3 {
+
+} */
+
+
+@media (max-width: 1280px) {
+    .portfolio__grid {
+        grid-template-columns: 1fr;
+	}
+}
+
+
+
+
+
+
+
