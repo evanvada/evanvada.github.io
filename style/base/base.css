@@ -24,3 +24,39 @@ html, body {
 	background: none;
 }
 
+
+/* TYPOGRAPHY */
+
+* {
+	font-family: Inconsolata;
+	font-size: var(--text-size);
+}
+
+h1 {
+	font-family: Libre Baskerville;
+	font-size: var(--h1-size);
+}
+
+h2 {
+	font-family: Libre Baskerville;
+	font-size: var(--h2-size);
+}
+
+h3 {
+	font-family: Libre Baskerville;
+	font-size: var(--h3-size);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
