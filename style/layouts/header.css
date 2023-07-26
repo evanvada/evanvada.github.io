@@ -24,8 +24,9 @@
 	text-decoration-line: none;
 	padding: 0 12px;
 	color: #000;
+}
 
-	font-family: Inconsolata;
+.header__top-element span {
 	font-size: 1.25rem;
 }
 
@@ -98,13 +99,14 @@
 
 	box-sizing: content-box;
 	border-bottom: solid var(--stroke-size) #bbb;
-
-	font-family: Inconsolata;
-	font-size: 1.25rem;
 }
 
 .header__side-element .icon {
 	margin: 0 12px;
+}
+
+.header__side-element span {
+	font-size: 1.25rem;
 }
 
 .header__side-element span:nth-child(2) {

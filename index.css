@@ -35,63 +35,6 @@
 
 
 
-
-
-
-
-
-.portfolio {
-	padding: 0 var(--lateral-padding);
-	padding-top: 64px;
-}
-
-.portfolio__grid {
-	display: grid;
-	grid-gap: 20px;
-	grid-template-columns: repeat(2, 1fr);
-}
-
-.portfolio-project {
-	overflow: hidden;
-	width: 100%;
-	aspect-ratio: 3 / 2;
-
-	background: blue;
-}
-
-/* .portfolio-project__background {
-
-}
-
-.portfolio-project__side {
-
-}
-
-.portfolio-project__side > h3 {
-
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .about {
 	padding: 0 10%;
 	padding-top: 96px;
