@@ -30,6 +30,10 @@
 	flex-direction: column;
 }
 
+.about__side > h2 {
+	padding-bottom: 24px;
+}
+
 
 
 

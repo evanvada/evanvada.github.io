@@ -31,10 +31,10 @@
 	color: white;
 }
 
-.white::before.before-line::before {
+.white::before {
 	background: white;
 }
 
-.white::after.after-line::after {
+.white::after {
 	background: white;
 }
