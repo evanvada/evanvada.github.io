@@ -4,9 +4,7 @@
 
 
 .about {
-	padding: 0 10%;
-	padding-top: 96px;
-	padding-bottom: 96px;
+	padding: 32px var(--lateral-padding);
 	background: #fff;
 
 	display: flex;
@@ -15,59 +13,51 @@
 }
 
 .about__portrait {
-	aspect-ratio: 1 / 1;
-	width: 600px;
+	height: 600px;
+	max-width: 500px;
+	flex: 1 1 0;
 
-	flex-grow: auto;
-
-	overflow: hidden;
 	position: relative;
-
 	background-color: green;
-	/* background-image: url("portraitex.png");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat; */
 }
 
 .about__side {
 	height: 600px;
-
 	flex: 1 1 0;
-	/* overflow: hidden; */
 
 	display: flex;
 	justify-content: flex-start;
 	flex-direction: column;
-
-	/* background-color: whitesmoke; */
-
-	padding-right: 20px;
-
-	font-size: 1.25rem;
-	font-family: Inconsolata;
-
-}
-
-.about__side > p {
-	padding: 12px 64px;
-}
-
-.about__side > p2 {
-	padding: 0 64px;
-	padding-top: 6px;
 }
 
 
-/* 
-.about__side > h3 {
-	
+
+
+
+@media (max-width: 640px) {
+	.about {
+		flex-direction: column;
+		gap: 24px;
+	}
+
+	.about__side {
+		width: 100%;
+		height: auto;
+		flex: none;
+	}
+
+	.about__portrait {
+		width: 100%;
+		max-width: none;
+		height: unset;
+		aspect-ratio: 1 / 1;
+		flex: none;
+	}
 }
 
-.about__side > p {
-	
-}
- */
+
+
+
 
 
 
