@@ -52,12 +52,12 @@
 	padding-right: 12px;
 }
 
-.hero__side > input {
+.hero__side > input[type="button"] {
 	margin-top: 24px;
-    width: min(400px, 100%);
+	width: min(400px, 100%);
 }
 
-.hero__side > input:hover {
+.hero__side > input[type="button"]:hover {
 	background: rgba(14, 56, 79, 0.5);
 }
 

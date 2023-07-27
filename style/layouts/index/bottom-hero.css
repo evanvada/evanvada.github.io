@@ -1,0 +1,173 @@
+
+
+
+
+
+
+.bottom-hero {
+	height: 60%;
+	position: relative;
+}
+
+.bottom-hero h2 {
+	padding-bottom: 24px;
+}
+
+.bottom-hero__bg {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+
+	background-image: url("../../../media/portfolio bottom.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: repeat;
+}
+
+
+
+
+.bottom-hero__side {
+	width: 100%;
+	height: 100%;
+	padding: 0 var(--lateral-padding);
+	padding-top: calc(64px + 24px);
+	padding-bottom: 64px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.bottom-hero__container {
+	display: flex;
+	gap: 80px;
+}
+
+
+
+
+
+.bottom-hero__form {
+	display: block;
+	width: 40em;
+	
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	color: #fff;
+
+}
+
+.bottom-hero__form > label {
+	font-size: var(--text-size);
+	padding: 0.5em 0;
+}
+
+.bottom-hero__form > input[type="email"],
+.bottom-hero__form > textarea {
+	font-size: var(--text-size);
+	font-family: Inconsolata Regular;
+	width: 100%;
+	
+	color: #fff;
+	padding: 0.25em 0.5em;
+	background: rgba(2, 18, 26, 0.5);
+	border-left: solid var(--stroke-size) #fff;
+}
+
+.bottom-hero__form > textarea {
+	height: 10em;
+	resize: none;
+}
+
+.bottom-hero__form > input[type="submit"] {
+	margin-top: 24px;
+	width: min(320px, 100%);
+}
+
+.bottom-hero__form > input[type="submit"]:hover {
+	background: rgba(14, 56, 79, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+.bottom-hero__info {
+	color: #fff;
+}
+
+.bottom-hero__info > h3 {
+	padding: 0.5rem 0;
+}
+
+.bottom-hero__info > span {
+	display: inline-block;
+	margin-bottom: 12px;
+}
+
+.bottom-hero__info-element {
+	height: 48px;
+	display: flex;
+	align-items: center;
+	text-decoration-line: none;
+	color: #fff;
+	width: fit-content;
+}
+
+.bottom-hero__info-element .icon {
+	margin-right: 16px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 960px) {
+	.bottom-hero {
+		height: unset;
+	}
+
+	.bottom-hero__container {
+		flex-direction: column-reverse;
+		gap: 24px;
+	}
+
+	.bottom-hero__form {
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
