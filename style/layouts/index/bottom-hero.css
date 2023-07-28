@@ -151,7 +151,7 @@
 
 	.bottom-hero__container {
 		flex-direction: column-reverse;
-		gap: 24px;
+		gap: 40px;
 	}
 
 	.bottom-hero__form {
