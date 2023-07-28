@@ -1,0 +1,20 @@
+
+.footer {
+	height: 64px;
+	background: #222;
+	color: #555;
+
+	padding: 0 var(--lateral-padding);;
+
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.footer > span {
+	width: 100%;
+	text-align: center;
+	border-top: solid var(--stroke-size) #555;
+	padding-top: 6px;
+}

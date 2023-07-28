@@ -5,7 +5,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, height=device-height">
 
-
 	<link rel="stylesheet" href="style/base/vars.css">
 	<link rel="stylesheet" href="style/base/base.css">
 	<link rel="stylesheet" href="style/base/fonts.css">
@@ -20,6 +19,7 @@
 	<link rel="stylesheet" href="style/layouts/index/portfolio.css">
 	<link rel="stylesheet" href="style/layouts/index/about.css">
 	<link rel="stylesheet" href="style/layouts/index/bottom-hero.css">
+	<link rel="stylesheet" href="style/layouts/footer.css">
 
 	<title>Portfolio Evan</title>
 </head>
@@ -28,25 +28,25 @@
 	<!-- HEADER -->
 	<header class="header">
 		<div class="header__top">
-			<a href="" class="header__top-element"><div class="header__logo">EVAN<br>VADA</div></a>
+			<a href="#hero-section" class="header__top-element"><div class="header__logo">EVAN<br>VADA</div></a>
 			<div class="header__top-element header__burger"><div class="burger icon"></div></div>
 			<nav class="header__desktop-nav">
-				<a href="" class="header__top-element"><span>PORTFOLIO</span></a>
-				<a href="" class="header__top-element"><span>À_PROPOS</span></a>
-				<a href="" class="header__top-element"><span>CONTACT</span></a>
+				<a href="#portfolio-section" class="header__top-element"><span>PORTFOLIO</span></a>
+				<a href="#about-section" class="header__top-element"><span>À_PROPOS</span></a>
+				<a href="#contact-section" class="header__top-element"><span>CONTACT</span></a>
 			</nav>
 		</div>
 		<div class="header__side">
 			<nav class="header__mobile-nav">
-				<a href="" class="header__side-element"><div class="house icon"></div><span>> PORTFOLIO</span><span>></span></a>
-				<a href="" class="header__side-element"><div class="magnify icon"></div><span>> À_PROPOS</span><span>></span></a>
-				<a href="" class="header__side-element"><div class="mail icon"></div><span>> CONTACT</span><span>></span></a>
+				<a href="#portfolio-section" class="header__side-element"><div class="house icon"></div><span>> PORTFOLIO</span><span>></span></a>
+				<a href="#about-section" class="header__side-element"><div class="magnify icon"></div><span>> À_PROPOS</span><span>></span></a>
+				<a href="#contact-section" class="header__side-element"><div class="mail icon"></div><span>> CONTACT</span><span>></span></a>
 			</nav>
 		</div>
 	</header>
 
 	<!-- HERO -->
-	<section class="hero dither-bottom">
+	<section class="hero dither-bottom" id="hero-section">
 		<div class="hero__bg"></div>
 		<div class="hero__side">
 			<h1>DÉV FULLSTACK</h1>
@@ -57,6 +57,7 @@
 
 	<!-- PRTFOLIO -->
 	<section class="portfolio">
+		<div class="anchor" id="portfolio-section"></div>
 		<h2 class="after-line">PORTFOLIO</h2>
 		<div class="portfolio__grid">
 			<div class="portfolio-project"></div>
@@ -66,6 +67,7 @@
 
 	<!-- ABOUT -->
 	<section class="about">
+		<div class="anchor" id="about-section"></div>
 		<div class="about__side">
 			<h2 class="after-line">À PROPOS</h2>
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -82,6 +84,7 @@
 	<section class="bottom-hero dither-top">
 		<div class="bottom-hero__bg"></div>
 		<div class="bottom-hero__side">
+			<div class="anchor" id="contact-section"></div>
 			<h2 class="after-line white">CONTACTEZ MOI</h2>
 			<div class="bottom-hero__container">
 				<form class="bottom-hero__form">
@@ -101,8 +104,11 @@
 			</div>
 		</div>
 	</section>
-	<div style="height: 80px; background: #333;">
-	</div>
+
+	<!-- FOOTER -->
+	<footer class="footer">
+		<span>© Copyright 2023 EvanVada. All rights reserved.</span>
+	</footer>
 	
 	<script src="main.js"></script>
 </body>

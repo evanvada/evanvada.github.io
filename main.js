@@ -15,27 +15,45 @@ window.addEventListener('scroll', function() {
 
 
 
+
+
+
 let burger = document.querySelector('.header__burger')
 let menu = document.querySelector('.header__side')
-let icon = document.querySelector('.header__burger .icon');
+let icon = document.querySelector('.header__burger .icon')
+let links = document.querySelectorAll('.header__mobile-nav a')
+let logo = document.querySelector('.header__top > a')
+
+links.forEach(a => {
+	a.addEventListener('click', () => {
+		closeMobileMenu();
+	})
+})
+
+logo.addEventListener('click', () => {
+	closeMobileMenu();
+})
 
 burger.addEventListener('click', () => {
-	
 	if (menu.classList.contains('show')) {
-		menu.classList.remove('show');
-		icon.classList.remove('cross');
-		icon.classList.add('burger');
+		closeMobileMenu()
 	} else {
-		menu.classList.add('show');
-		icon.classList.remove('burger');
-		icon.classList.add('cross');
+		openMobileMenu()
 	}
-	
 });
 
+function closeMobileMenu() {
+	menu.classList.remove('show');
+	icon.classList.remove('cross');
+	icon.classList.add('burger');
+}
 
-
-
+function openMobileMenu() {
+	menu.classList.add('show');
+	icon.classList.remove('burger');
+	icon.classList.add('cross');
+}
+  
 
 
 

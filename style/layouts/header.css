@@ -111,7 +111,7 @@
 
 .header__side-element span:nth-child(2) {
 	flex-grow: 1;
-	transition: padding-left 0.1s ease;
+	transition: padding-left 0.2s ease;
 }
 
 .header__side-element:hover span:nth-child(2) {
