@@ -6,6 +6,7 @@
 .about {
 	padding: 32px var(--lateral-padding);
 	background: #fff;
+	position: relative;
 
 	display: flex;
 	justify-content: center;
