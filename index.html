@@ -50,15 +50,15 @@
 		<div class="hero__bg"></div>
 		<div class="hero__side">
 			<h1>DÉV FULLSTACK</h1>
-			<h3>Passionné et polyvalent, hâte de travailler ensemble sur un projet unique</h3>
-			<input class="fat-button" type="button" value="> Contacter">
+			<h3>Passionné depuis jeune, j'ai hâte de travailler ensemble sur un projet unique</h3>
+			<input class="fat-button" type="button" value="> Contacter" onclick="document.getElementById('contact-section').scrollIntoView();">
 		</div>
 	</section>
 
 	<!-- PRTFOLIO -->
 	<section class="portfolio">
 		<div class="anchor" id="portfolio-section"></div>
-		<h2 class="after-line">PORTFOLIO</h2>
+		<h2 class="before-line after-line">PORTFOLIO</h2>
 		<div class="portfolio__grid">
 			<div class="portfolio-project"></div>
 			<div class="portfolio-project"></div>
@@ -67,17 +67,19 @@
 
 	<!-- ABOUT -->
 	<section class="about">
-		<div class="anchor" id="about-section"></div>
-		<div class="about__side">
-			<h2 class="after-line">À PROPOS</h2>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			<br>● Lorem
-			<br>● Velit
-			<br>● Erat
-			<br>● Enim
-			<br>● Felis
+		<h2 class="before-line after-line">À PROPOS</h2>
+		<div class="about__container">
+			<div class="anchor" id="about-section"></div>
+			<div class="about__side">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<br>• Lorem
+				<br>• Velit
+				<br>• Erat
+				<br>• Enim
+				<br>• Felis
+			</div>
+			<div class="about__portrait dither-top dither-bottom"></div>
 		</div>
-		<div class="about__portrait dither-top dither-bottom"></div>
 	</section>
 
 	<!-- BOTTOM HERO -->
@@ -85,7 +87,7 @@
 		<div class="bottom-hero__bg"></div>
 		<div class="bottom-hero__side">
 			<div class="anchor" id="contact-section"></div>
-			<h2 class="after-line white">CONTACTEZ MOI</h2>
+			<h2 class="after-line white">CONTACT</h2>
 			<div class="bottom-hero__container">
 				<form class="bottom-hero__form">
 					<label for="email">> EMAIL</label>
@@ -106,9 +108,9 @@
 	</section>
 
 	<!-- FOOTER -->
-	<footer class="footer">
+	<!-- <footer class="footer">
 		<span>© Copyright 2023 EvanVada. All rights reserved.</span>
-	</footer>
+	</footer> -->
 	
 	<script src="main.js"></script>
 </body>

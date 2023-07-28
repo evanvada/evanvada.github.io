@@ -36,20 +36,14 @@
 }
 
 .hero__side > h1 {
-	font-family: Libre Baskerville;
-	font-size: var(--h1-size);
-
 	border-bottom: solid var(--stroke-size) white;
 	padding-bottom: 6px;
-
-	line-height: 1.25em;
 }
 
 .hero__side > h3 {
-	font-family: Inconsolata;
-	font-size: var(--h3-size);
 	margin-top: 24px;
 	padding-right: 12px;
+	font-family: var(--font-content);
 }
 
 .hero__side > input[type="button"] {

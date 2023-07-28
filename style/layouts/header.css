@@ -27,7 +27,7 @@
 }
 
 .header__top-element span {
-	font-size: 1.25rem;
+	font-size: 1.125rem;
 }
 
 .header__desktop-nav {
@@ -39,8 +39,8 @@
 
 .header__logo {
 	font-size: 1.5rem;
-	font-family: Inconsolata;
-	line-height: 0.8;
+	line-height: 0.9em;
+	letter-spacing: -1px;
 }
 
 
@@ -106,7 +106,7 @@
 }
 
 .header__side-element span {
-	font-size: 1.25rem;
+	font-size: 1.125rem;
 }
 
 .header__side-element span:nth-child(2) {

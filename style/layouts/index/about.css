@@ -7,7 +7,14 @@
 	padding: 32px var(--lateral-padding);
 	background: #fff;
 	position: relative;
+}
 
+
+.about h2 {
+	padding-bottom: 24px;
+}
+
+.about__container {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -31,23 +38,19 @@
 	flex-direction: column;
 }
 
-.about__side > h2 {
-	padding-bottom: 24px;
-}
-
 
 
 
 
 @media (max-width: 640px) {
-	.about {
+	.about__container {
 		flex-direction: column;
 		gap: 24px;
 	}
 
 	.about__side {
 		width: 100%;
-		height: auto;
+		height: unset;
 		flex: none;
 	}
 
