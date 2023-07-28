@@ -1,6 +1,6 @@
 
 .footer {
-	height: 64px;
+	height: 32px;
 	background: #222;
 	color: #555;
 
@@ -15,6 +15,6 @@
 .footer > span {
 	width: 100%;
 	text-align: center;
-	border-top: solid var(--stroke-size) #555;
-	padding-top: 6px;
+	/* border-top: solid var(--stroke-size) #555;
+	padding-top: 6px; */
 }

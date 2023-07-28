@@ -5,7 +5,10 @@
 	--h1-size: 3.5rem;
 	--h2-size: 2rem;
 	--h3-size: 1.25rem;
-	--text-size: 1rem;
+	--text-size: 16px;
+
+	--font-content: Roboto Mono;
+	--font-titles: PTSerif;
 }
 
 

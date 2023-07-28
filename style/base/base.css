@@ -12,8 +12,6 @@
 	box-sizing: border-box;
 
 	word-wrap: break-word;
-	font-size: 1em;
-	line-height: 1em;
 }
 
 html, body {
@@ -30,21 +28,24 @@ html, body {
 /* TYPOGRAPHY */
 
 * {
-	font-family: Inconsolata;
+	font-family: var(--font-content);
 	font-size: var(--text-size);
+	font-weight: normal;
+	line-height: 1.25em;
 }
 
 h1 {
-	font-family: Libre Baskerville;
+	font-family: var(--font-titles);
 	font-size: var(--h1-size);
 }
 
 h2 {
-	font-family: Libre Baskerville;
+	font-family: var(--font-titles);
 	font-size: var(--h2-size);
 }
 
 h3 {
+	font-family: var(--font-titles);
 	font-size: var(--h3-size);
 }
 
