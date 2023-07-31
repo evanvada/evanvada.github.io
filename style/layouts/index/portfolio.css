@@ -2,7 +2,7 @@
 
 
 .portfolio {
-	background: #fff;
+	background: var(--background-color);
 	padding: 32px var(--lateral-padding);
 	position: relative;
 }

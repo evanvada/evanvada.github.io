@@ -5,7 +5,7 @@
 
 .about {
 	padding: 32px var(--lateral-padding);
-	background: #fff;
+	background: var(--background-color);
 	position: relative;
 }
 
@@ -26,7 +26,9 @@
 	flex: 1 1 0;
 
 	position: relative;
-	background-color: green;
+	background-image: url("../../../media/portrait.png");
+	background-size: cover;
+	background-position: center;
 }
 
 .about__side {
@@ -38,6 +40,9 @@
 	flex-direction: column;
 }
 
+.about__side > p {
+	padding-bottom: 6px;
+}
 
 
 

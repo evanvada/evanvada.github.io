@@ -20,7 +20,7 @@ html, body {
 
 	scroll-behavior: smooth;
 
-	color: #000;
+	color: var(--text-color);
 	background: none;
 }
 
