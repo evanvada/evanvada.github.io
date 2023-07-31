@@ -9,6 +9,11 @@
 
 	--font-content: Roboto Mono;
 	--font-titles: PTSerif;
+
+	/* --background-color: #fff; */
+	/* --text-color: #000; */
+	--background-color: #202024;
+	--text-color: #fff;
 }
 
 
