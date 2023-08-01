@@ -9,7 +9,6 @@
 	position: relative;
 }
 
-
 .about h2 {
 	padding-bottom: 24px;
 }
@@ -18,6 +17,7 @@
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	gap: 24px 0;
 }
 
 .about__portrait {
@@ -44,9 +44,6 @@
 	padding-bottom: 6px;
 }
 
-
-
-
 @media (max-width: 640px) {
 	.about__container {
 		flex-direction: column;
@@ -69,6 +66,31 @@
 }
 
 
+
+
+.about__skills {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px 24px;
+}
+
+.about__skill-element {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-decoration-line: none;
+	width: fit-content;
+}
+
+.about__skill-element span {
+	font-size: 0.75rem;
+}
+
+
+.about__skill-element .icon {
+	margin-bottom: 6px;
+}
 
 
 

@@ -55,3 +55,45 @@
 
 
 
+
+.icon.c {
+	background-image: url("../../media/skills/c.png");
+}
+
+.icon.css {
+	background-image: url("../../media/skills/css.png");
+}
+
+.icon.git {
+	background-image: url("../../media/skills/git.png");
+}
+
+.icon.html {
+	background-image: url("../../media/skills/html.png");
+}
+
+.icon.js {
+	background-image: url("../../media/skills/js.png");
+}
+
+.icon.mongodb {
+	background-image: url("../../media/skills/mongodb.png");
+}
+
+.icon.nodejs {
+	background-image: url("../../media/skills/nodejs.png");
+}
+
+.icon.python {
+	background-image: url("../../media/skills/python.png");
+}
+
+.icon.react {
+	background-image: url("../../media/skills/react.png");
+}
+
+.icon.sass {
+	background-image: url("../../media/skills/sass.png");
+}
+
+
