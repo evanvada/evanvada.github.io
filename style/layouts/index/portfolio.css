@@ -17,7 +17,7 @@
 	grid-template-columns: 1fr 1fr;
 }
 
-.portfolio-project {
+.portfolio__project {
 	overflow: hidden;
 	width: 100%;
 	aspect-ratio: 3 / 2;
