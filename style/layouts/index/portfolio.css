@@ -41,8 +41,8 @@
 
 
 @media (max-width: 1280px) {
-    .portfolio__grid {
-        grid-template-columns: 1fr;
+	.portfolio__grid {
+		grid-template-columns: 1fr;
 	}
 }
 
