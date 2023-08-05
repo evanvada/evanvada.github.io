@@ -83,7 +83,7 @@
 	
 	color: #fff;
 	padding: 0.25em 0.5em;
-	background: rgba(2, 18, 26, 0.5);
+	background: rgba(29, 30, 32, 0.5);
 	border-left: solid var(--stroke-size) #fff;
 }
 
@@ -98,7 +98,7 @@
 }
 
 .bottom-hero__form > input[type="submit"]:hover {
-	background: rgba(14, 56, 79, 0.5);
+	background: rgba(29, 30, 32, 0.5);
 }
 
 
