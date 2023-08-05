@@ -21,10 +21,10 @@ window.addEventListener('scroll', function() {
 let burger = document.querySelector('.header__burger')
 let menu = document.querySelector('.header__side')
 let icon = document.querySelector('.header__burger .icon')
-let links = document.querySelectorAll('.header__mobile-nav a')
+let side_links = document.querySelectorAll('.header__mobile-nav a')
 let logo = document.querySelector('.header__top > a')
 
-links.forEach(a => {
+side_links.forEach(a => {
 	a.addEventListener('click', () => {
 		closeMobileMenu();
 	})
@@ -53,14 +53,22 @@ function openMobileMenu() {
 	icon.classList.remove('burger');
 	icon.classList.add('cross');
 }
-  
 
 
 
 
 
-
-
+// éviter d'afficher l'ancre dans l'URL
+var links = document.querySelectorAll("a");
+links.forEach(function(link) {
+	link.addEventListener("click", function(event) {
+		event.preventDefault();
+		var anchor = this.getAttribute("href");
+		document.querySelector(anchor).scrollIntoView({
+			behavior: "smooth"
+		});
+	});
+});
 
 
 

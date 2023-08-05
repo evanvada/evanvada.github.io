@@ -96,4 +96,7 @@
 	background-image: url("../../media/skills/sass.png");
 }
 
+.icon.auto-color {
+	filter: brightness(var(--icons-brightness));
+}
 

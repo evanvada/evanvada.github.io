@@ -8,7 +8,7 @@
 	height: 48px;
 	top: -24px;
 
-	background: url("../../media/dither2.png");
+	background: var(--dither-image);
 	background-size: auto 48px;
 }
 
@@ -20,7 +20,7 @@
 	height: 48px;
 	bottom: -24px;
 
-	background: url("../../media/dither2.png");
+	background: var(--dither-image);
 	background-size: auto 48px;
 }
 

@@ -52,7 +52,8 @@
 }
 
 .hero__side > input[type="button"]:hover {
-	background: rgba(14, 56, 79, 0.5);
+	/* background: rgba(83, 119, 139, 0.5); */
+	background: rgba(90, 140, 157, 0.5);
 }
 
 
