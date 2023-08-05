@@ -10,15 +10,19 @@
 	--font-content: Roboto Mono;
 	--font-titles: PTSerif;
 
+	--color-1: #FFAF65;
+	--color-2: #BBE2EE;
+
 	--background-color: #fff;
 	--text-color: #000;
 	--icons-brightness: 0;
 	--dither-image: url("../../media/dither.png");
 
-	/* --background-color: #202024;
+	--background-color: #202024;
 	--text-color: #fff;
 	--icons-brightness: 1;
-	--dither-image: url("../../media/dither2.png"); */
+	--dither-image: url("../../media/dither2.png");
+	--color-2: #1d4f6e;
 }
 
 

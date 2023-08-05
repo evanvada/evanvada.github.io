@@ -9,8 +9,8 @@
 	position: relative;
 }
 
-.bottom-hero h2 {
-	padding-bottom: 24px;
+.bottom-hero .title-decor {
+	margin-bottom: 24px;
 }
 
 .bottom-hero__bg {

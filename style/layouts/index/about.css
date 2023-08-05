@@ -9,12 +9,8 @@
 	position: relative;
 }
 
-.about h2 {
-	padding-bottom: 24px;
-}
-
-.about h3 {
-	padding-bottom: 18px;
+.about .title-decor {
+	margin-bottom: 24px;
 }
 
 .about__grid {

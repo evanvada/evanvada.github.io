@@ -9,10 +9,11 @@
 	<link rel="stylesheet" href="style/base/base.css">
 	<link rel="stylesheet" href="style/base/fonts.css">
 
-	<link rel="stylesheet" href="style/components/decorative-line.css">
+	<!-- <link rel="stylesheet" href="style/components/decorative-line.css"> -->
 	<link rel="stylesheet" href="style/components/fat-button.css">
 	<link rel="stylesheet" href="style/components/icons.css">
 	<link rel="stylesheet" href="style/components/dither.css">
+	<link rel="stylesheet" href="style/components/title-decor.css">
 
 	<link rel="stylesheet" href="style/layouts/header.css">
 	<link rel="stylesheet" href="style/layouts/index/hero.css">
@@ -58,7 +59,7 @@
 	<!-- PRTFOLIO -->
 	<section class="portfolio">
 		<div class="anchor" id="portfolio"></div>
-		<h2 class="before-line after-line">PORTFOLIO</h2>
+		<div class="title-decor left right underline"><h2>PORTFOLIO</h2></div>
 		<div class="portfolio__grid">
 			<div class="portfolio__project"></div>
 			<div class="portfolio__project"></div>
@@ -67,19 +68,20 @@
 
 	<!-- ABOUT -->
 	<section class="about">
-		<h2 class="before-line after-line">À&nbsp;PROPOS</h2>
+		<div class="title-decor left right underline"><h2>À PROPOS</h2></div>
 		<div class="about__grid">
 			<div class="anchor" id="about"></div>
 			
 			<div class="about__myself">
-				<h3>DE MOI</h3>
+				<div class="title-decor highlight"><h3>DE MOI</h3></div>
+				
 				<p>• Bonjour, je m'appelle Evan. Je suis passionné d'informatique depuis mes 14 ans, où j'ai commencé par créer des petits jeux avec Python.</p>
 				<p>• On dis de moi que je suis artistique… J'aime le dessin et le design mais je suis également attiré par la dimension technique.</p>
 				<p>• C'est pour cela j'ai décidé d'être développeur full-stack. Dans cette voie, je peux combiner mes envies artistiques avec mon intérêt pour le code.</p>
 				<p>• L'informatique est pour moi un moyen d'exprimer ma créativité. J'adore prototyper et expérimenter dans mes projets&nbsp;!</p>
 			</div>
 			<div class="about__skills">
-				<h3>MES COMPÉTENCES</h3>
+				<div class="title-decor highlight"><h3>MES COMPÉTENCES</h3></div>
 				<div class="about__skills-collection">
 					<div class="about__skill-element"><div class="html auto-color icon"></div><span>HTML</span></div>
 					<div class="about__skill-element"><div class="css auto-color icon"></div><span>CSS</span></div>
@@ -103,7 +105,7 @@
 		<div class="bottom-hero__bg"></div>
 		<div class="bottom-hero__side">
 			<div class="anchor" id="contact"></div>
-			<h2 class="after-line white">CONTACT</h2>
+			<div class="title-decor white right"><h2>CONTACT</h2></div>
 			<div class="bottom-hero__container">
 				<form class="bottom-hero__form">
 					<label for="email">> EMAIL</label>
