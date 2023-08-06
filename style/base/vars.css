@@ -7,8 +7,9 @@
 	--h3-size: 1.25rem;
 	--text-size: 16px;
 
-	--font-content: Roboto Mono;
-	--font-titles: PTSerif;
+	--font-content: Roboto;
+	--font-special: Roboto Mono;
+	--font-titles: Merriweather;
 
 	--color-1: #FFAF65;
 	--color-2: #BBE2EE;
@@ -18,11 +19,11 @@
 	--icons-brightness: 0;
 	--dither-image: url("../../media/dither.png");
 
-	--background-color: #202024;
+	/* --background-color: #202024;
 	--text-color: #fff;
 	--icons-brightness: 1;
 	--dither-image: url("../../media/dither2.png");
-	--color-2: #1d4f6e;
+	--color-2: #195b85; */
 }
 
 

@@ -1,48 +1,14 @@
 @font-face {
-	font-family: "Inconsolata Regular";
-	src: url("../../fonts/Inconsolata-Regular.woff2") format("woff2");
-}
-
-@font-face {
-	font-family: "Inconsolata";
-	src: url("../../fonts/Inconsolata-SemiBold.woff2") format("woff2");
-}
-
-@font-face {
-	font-family: "Libre Baskerville";
-	src: url("../../fonts/LibreBaskerville-Bold.woff2") format("woff2");
-}
-
-@font-face {
-	font-family: "Libre Baskerville";
-	src: url("../../fonts/LibreBaskerville-Bold.woff2") format("woff2");
-}
-
-@font-face {
 	font-family: "Roboto Mono";
 	src: url("../../fonts/RobotoMono-Regular.ttf");
 }
 
 @font-face {
-	font-family: "Roboto Slab";
-	src: url("../../fonts/RobotoSlab-Regular.ttf");
-}
-
-@font-face {
-	font-family: "PTSerif";
-	src: url("../../fonts/PTSerif-Bold.ttf");
+	font-family: "Roboto";
+	src: url("../../fonts/Roboto-Regular.ttf");
 }
 
 @font-face {
 	font-family: "Merriweather";
 	src: url("../../fonts/Merriweather-Bold.ttf");
 }
-
-
-
-
-
-
-
-
-
