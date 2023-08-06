@@ -1,0 +1,88 @@
+
+.title-decor {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.title-decor.left::before {
+	content: "";
+	flex-grow: 1;
+	height: var(--stroke-size);
+	background: var(--text-color);
+	display: block;
+	margin-right: 12px;
+}
+
+.title-decor.right::after {
+	content: "";
+	flex-grow: 1;
+	height: var(--stroke-size);
+	background: var(--text-color);
+	display: block;
+	margin-left: 12px;
+}
+
+.title-decor.white {
+	color: white;
+}
+
+.title-decor.white::before {
+	background: white;
+}
+
+.title-decor.white::after {
+	background: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.title-decor.underline > h1,
+.title-decor.underline > h2,
+.title-decor.underline > h3,
+.title-decor.underline > h4,
+.title-decor.underline > h5,
+.title-decor.underline > h6 {
+	border-bottom: 6px solid var(--color-1);
+}
+
+
+
+.title-decor.highlight::before {
+	content: "";
+	position: absolute;
+	width: calc(100% - 10px);
+	height: 10px;
+	
+	z-index: 1;
+
+	background: var(--color-2);
+
+	bottom: 0;
+	left: -6px;
+}
+
+.title-decor.highlight > h1,
+.title-decor.highlight > h2,
+.title-decor.highlight > h3,
+.title-decor.highlight > h4,
+.title-decor.highlight > h5,
+.title-decor.highlight > h6 {
+	z-index: 1;
+}
+
+.title-decor.highlight {
+	width: fit-content;
+}
+
+
+

@@ -7,8 +7,8 @@
 	position: relative;
 }
 
-.portfolio > h2 {
-	padding-bottom: 24px;
+.portfolio .title-decor {
+	margin-bottom: 24px;
 }
 
 .portfolio__grid {
@@ -31,11 +31,11 @@
 
 }
 
-.portfolio-project__side {
+.portfolio-project__overlay {
 
 }
 
-.portfolio-project__side > h3 {
+.portfolio-project__overlay > h3 {
 
 } */
 
@@ -45,6 +45,27 @@
 		grid-template-columns: 1fr;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

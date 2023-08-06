@@ -19,7 +19,7 @@ window.addEventListener('scroll', function() {
 
 
 let burger = document.querySelector('.header__burger')
-let menu = document.querySelector('.header__side')
+let menu = document.querySelector('.header__overlay')
 let icon = document.querySelector('.header__burger .icon')
 let side_links = document.querySelectorAll('.header__mobile-nav a')
 let logo = document.querySelector('.header__top > a')
@@ -62,11 +62,13 @@ function openMobileMenu() {
 var links = document.querySelectorAll("a");
 links.forEach(function(link) {
 	link.addEventListener("click", function(event) {
-		event.preventDefault();
 		var anchor = this.getAttribute("href");
-		document.querySelector(anchor).scrollIntoView({
-			behavior: "smooth"
-		});
+		if (anchor[0] == "#") {
+			event.preventDefault();
+			document.querySelector(anchor).scrollIntoView({
+				behavior: "smooth"
+			});
+		}
 	});
 });
 

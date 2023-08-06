@@ -10,6 +10,7 @@
 	width: 400px;
 	height: 50px;
 
+	font-family: var(--font-special);
 	text-align: left;
 	padding-left: 24px;
 	transition: border-radius 0.2s ease, background 0.2s ease, padding-left 0.2s ease;
