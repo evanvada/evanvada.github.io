@@ -4,7 +4,7 @@
 
 
 .hero {
-	height: 70%;
+	height: 80%;
 	overflow: hidden;
 	position: relative;
 }
@@ -52,7 +52,6 @@
 }
 
 .hero__overlay > input[type="button"]:hover {
-	/* background: rgba(83, 119, 139, 0.5); */
 	background: rgba(90, 140, 157, 0.5);
 }
 

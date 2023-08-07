@@ -8,8 +8,9 @@
 	background: none;
 	border: solid var(--stroke-size) #fff;
 	width: 400px;
-	height: 50px;
+	height: 48px;
 
+	border-radius: 2px;
 	font-family: var(--font-special);
 	text-align: left;
 	padding-left: 24px;
@@ -20,6 +21,5 @@
 	cursor: pointer;
 	padding-left: 64px;
 	border-radius: 25px;
-	background: rgba(0, 0, 0, 0.5);
 }
 
