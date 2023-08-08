@@ -44,7 +44,7 @@
 @media (max-width: 640px) {
 	:root {
 		--h1-size: 1.5rem;
-		--h3-size: 1rem;
+		--h3-size: 1.125rem;
 		--text-size: 14px;
 		--lateral-padding: 18px;
 	}
