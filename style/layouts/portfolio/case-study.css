@@ -1,0 +1,43 @@
+
+
+
+
+.case-study {
+    width: 100%;
+}
+
+
+
+.case-study .fat-button {
+	display: flex;
+	align-items: center;
+	padding-left: 8px;
+}
+
+
+.fat-button:hover {
+	padding-left: 32px;
+}
+
+
+.fat-button span {
+	font-family: var(--font-special);
+}
+
+
+.case-study .fat-button .icon {
+	margin-right: 12px;
+}
+
+.primary-button {
+	background: rgba(12,23,61,1);
+	border-color: rgba(12,23,61,1);
+	box-shadow: 0 2px 5px rgba(12,23,61,0.1);
+}
+
+.secondary-button {
+	color: var(--text-color);
+	border-color: rgba(12,23,61,1);
+	box-shadow: 0 2px 5px rgba(12,23,61,0.1);
+}
+
