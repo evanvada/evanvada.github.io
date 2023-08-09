@@ -22,13 +22,15 @@
 
 .about__portrait {
 	grid-area: 1 / 2 / 4 / 3;
-
 	position: relative;
-	background-image: url("../../../media/portrait.png");
-	background-size: cover;
-	background-position: center;
-
+	overflow: hidden;
 	height: 500px;
+}
+
+.about__portrait img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .about__myself {
@@ -67,6 +69,7 @@
 	flex-wrap: wrap;
 	gap: 12px 24px;
 	padding-left: 32px;
+	position: relative;
 }
 
 .about__skill-element {
@@ -86,7 +89,24 @@
 	margin-bottom: 6px;
 }
 
+.about__skills-to-be {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px 24px;
+}
 
+.about__skills-to-be > span {
+	font-size: 10px;
+	font-family: var(--font-titles);
+	position: absolute;
+	opacity: 0.3;
+	
+	left: 50%;
+	bottom: -20px;
+	white-space: nowrap;
+	transform: translateX(-50%);
+}
 
 
 

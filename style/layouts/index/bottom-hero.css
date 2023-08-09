@@ -7,6 +7,7 @@
 .bottom-hero {
 	height: 80%;
 	position: relative;
+	overflow: hidden;
 }
 
 .bottom-hero .title-decor {
@@ -15,7 +16,7 @@
 
 .bottom-hero__bg {
 	position: absolute;
-	height: 100%;
+	height: calc(100% + 200px);
 	width: 100%;
 	z-index: -1;
 
@@ -81,7 +82,6 @@
 .bottom-hero__form > input[type="email"],
 .bottom-hero__form > textarea {
 	font-size: var(--text-size);
-	font-family: Inconsolata Regular;
 	width: 100%;
 	
 	color: #fff;

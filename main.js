@@ -6,11 +6,11 @@ let bg2 = document.querySelector('.bottom-hero__bg')
 
 
 window.addEventListener('scroll', function() {
-	// let bg1_scroll_percent = (window.scrollY-hero.offsetTop)/hero.offsetHeight || 0
-	// bg1.style.backgroundPosition = "50% calc(50% + " + bg1_scroll_percent*200 + "px)"
+	let bg1_scroll_percent = (window.scrollY-hero.offsetTop)/hero.offsetHeight || 0
+	bg1.style.backgroundPosition = "50% calc(50% + " + bg1_scroll_percent*200 + "px)"
 
-	// let bg2_scroll_percent = (window.scrollY-hero_bottom.offsetTop)/hero_bottom.offsetHeight || 0
-	// bg2.style.backgroundPosition = "50% calc(50% + " + bg2_scroll_percent*200 + "px)"
+	let bg2_scroll_percent = (window.scrollY-hero_bottom.offsetTop)/hero_bottom.offsetHeight || 0
+	bg2.style.backgroundPosition = "50% calc(50% + " + bg2_scroll_percent*200 + "px)"
 });
 
 
@@ -54,23 +54,6 @@ function openMobileMenu() {
 	icon.classList.add('cross');
 }
 
-
-
-
-
-// éviter d'afficher l'ancre dans l'URL
-var links = document.querySelectorAll("a");
-links.forEach(function(link) {
-	link.addEventListener("click", function(event) {
-		var anchor = this.getAttribute("href");
-		if (anchor[0] == "#") {
-			event.preventDefault();
-			document.querySelector(anchor).scrollIntoView({
-				behavior: "smooth"
-			});
-		}
-	});
-});
 
 
 
