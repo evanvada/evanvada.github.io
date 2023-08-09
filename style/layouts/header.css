@@ -75,7 +75,6 @@
 	height: 100vh;
 
 	position: absolute;
-	margin-top: var(--header-height);
 
 	border-top: solid var(--stroke-size) var(--text-color);
 

@@ -27,19 +27,19 @@
 
 	<header class="header">
 		<div class="header__top">
-			<a href="#hero" class="header__top-element"><div class="header__logo">EVAN<br>VADA</div></a>
+			<a href="javascript:void(0);" class="header__top-element" onclick="document.getElementById('hero').scrollIntoView();"><div class="header__logo">EVAN<br>VADA</div></a>
 			<div class="header__top-element header__burger"><div class="burger auto-color icon"></div></div>
 			<nav class="header__desktop-nav">
-				<a href="#portfolio" class="header__top-element"><span>PORTFOLIO</span></a>
-				<a href="#about" class="header__top-element"><span>À_PROPOS</span></a>
-				<a href="#contact" class="header__top-element"><span>CONTACT</span></a>
+				<a href="index.html#portfolio" class="header__top-element"><span>PORTFOLIO</span></a>
+				<a href="index.html#about" class="header__top-element"><span>À_PROPOS</span></a>
+				<a href="index.html#contact" class="header__top-element"><span>CONTACT</span></a>
 			</nav>
 		</div>
 		<div class="header__overlay">
 			<nav class="header__mobile-nav">
-				<a href="#portfolio" class="header__overlay-element"><div class="house auto-color icon"></div><span>> PORTFOLIO</span><span>></span></a>
-				<a href="#about" class="header__overlay-element"><div class="magnify auto-color icon"></div><span>> À_PROPOS</span><span>></span></a>
-				<a href="#contact" class="header__overlay-element"><div class="mail auto-color icon"></div><span>> CONTACT</span><span>></span></a>
+				<a href="index.html#portfolio" class="header__overlay-element"><div class="house auto-color icon"></div><span>> PORTFOLIO</span><span>></span></a>
+				<a href="index.html#about" class="header__overlay-element"><div class="magnify auto-color icon"></div><span>> À_PROPOS</span><span>></span></a>
+				<a href="index.html#contact" class="header__overlay-element"><div class="mail auto-color icon"></div><span>> CONTACT</span><span>></span></a>
 			</nav>
 		</div>
 	</header>
@@ -49,7 +49,7 @@
 		<div class="hero__overlay">
 			<h1>DÉV FULLSTACK</h1>
 			<h3>Passionné depuis très jeune, j'ai extrêmement hâte de commencer à travailler en équipe en apprentissage</h3>
-			<input class="fat-button" type="button" value="> Contacter" onclick="document.getElementById('contact').scrollIntoView();">
+			<input class="fat-button" type="button" value="> Contacter" onclick="window.location.href='index.html#contact'">
 		</div>
 	</section>
 
@@ -57,17 +57,16 @@
 		<div class="anchor" id="portfolio"></div>
 		<div class="title-decor left right underline"><h2>PROJETS</h2></div>
 		<div class="portfolio__grid">
-			<div class="portfolio__project">
-				<div class="portfolio-project-1__bg"></div>
-				<div class="portfolio-project-1__phone"></div>
-				<div class="portfolio-project-1__desktop"></div>
-				<div class="portfolio-project-1__gradient"></div>
+			<div class="portfolio__project" onclick="window.location.href='portfolio.html'">
+				<div class="portfolio-project__bg proj1"></div>
+				<div class="portfolio-project__color-overlay proj1"></div>
+				<div class="portfolio-project__gradient proj1"></div>
 				<div class="portfolio-project__overlay">
 					<h3>MON PORTFOLIO</h3>
 					<span>Pour montrer mes projets et contacts et donner envie aux recruteurs bla bla bla</span>
 				</div>
 			</div>
-			<div class="portfolio__project"></div>
+			<div class="portfolio__project" onclick="window.location.href='englishtango.html'"></div>
 		</div>
 	</section>
 
@@ -92,20 +91,22 @@
 					<div class="about__skill-element"><div class="sass auto-color icon"></div><span>Sass</span></div>
 					<div class="about__skill-element"><div class="git auto-color icon"></div><span>Git</span></div>
 					<div class="about__skill-element"><div class="c auto-color icon"></div><span>C</span></div>
-					<div class="about__skill-element"><div class="react auto-color icon"></div><span>React</span></div>
-					<div class="about__skill-element"><div class="nodejs auto-color icon"></div><span>NodeJS</span></div>
-					<div class="about__skill-element"><div class="mongodb auto-color icon"></div><span>MongoDB</span></div>
+					<div class="about__skills-to-be">
+						<span>↑ À VOIR EN APPRENTISAGE...</span>
+						<div class="about__skill-element"><div class="react auto-color icon"></div><span>React</span></div>
+						<div class="about__skill-element"><div class="nodejs auto-color icon"></div><span>NodeJS</span></div>
+						<div class="about__skill-element"><div class="mongodb auto-color icon"></div><span>MongoDB</span></div>
+					</div>
 				</div>
 			</div>
-			<div class="about__close">Alors, travaillons ensemble&nbsp;!</div>
-			<div class="about__portrait dither-top dither-bottom"></div>
+			<div class="about__portrait dither-top dither-bottom"><img src="media/portrait.png" alt="portrait"></div>
 		</div>
 	</section>
 
 	<section class="bottom-hero dither-top">
+		<div class="anchor" id="contact"></div>
 		<div class="bottom-hero__bg"></div>
 		<div class="bottom-hero__overlay">
-			<div class="anchor" id="contact"></div>
 			<div class="title-decor white right"><h2>CONTACT</h2></div>
 			<div class="bottom-hero__container">
 				<form class="bottom-hero__form">
@@ -126,9 +127,16 @@
 		</div>
 	</section>
 
-	<!-- <footer class="footer">
-		<span>© Copyright 2023 EvanVada. All rights reserved.</span>
-	</footer> -->
+	<footer class="footer">
+		<div class="footer__element">
+			Copyright 2023 Evan Vada
+		</div>
+		<nav class="footer__nav">
+			<a class="footer__element" href="index.html">Home</a>
+			<a class="footer__element" href="portfolio.html">Project_1</a>
+			<a class="footer__element" href="englishtango.html">Project_2</a>
+		</nav>
+	</footer>
 	
 	<script src="main.js"></script>
 </body>
