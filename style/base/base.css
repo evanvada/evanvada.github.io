@@ -8,6 +8,8 @@
 	box-sizing: border-box;
 
 	word-wrap: break-word;
+
+	transition: color 0.2s ease;
 }
 
 html, body {
@@ -59,7 +61,10 @@ h3 {
 	margin-top: calc(-1 * var(--header-height));
 }
 
-
+a {
+	color: var(--color-text);
+	text-decoration-line: none;
+}
 
 
 

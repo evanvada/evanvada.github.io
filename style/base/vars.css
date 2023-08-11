@@ -10,13 +10,6 @@
 	--font-special: Roboto Mono;
 	--font-titles: Merriweather;
 
-	/* --color-1: #FFAF65; */
-	/* --color-2: #BBE2EE; */
-
-	/* --background-color: #fff; */
-	/* --text-color: #000; */
-	--icons-brightness: 0;
-
 	--lateral-margin: 10vw;
 	--content-width: 1360px;
 }
@@ -28,12 +21,6 @@
 		--lateral-margin: auto;
 	}
 }
-
-
-/*
---icons-brightness: 1;
---dither-image: url("../../media/dither2.png");
-*/
 
 
 

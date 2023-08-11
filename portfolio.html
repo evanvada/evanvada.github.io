@@ -26,23 +26,39 @@
 <body>
 
 	<header class="header">
-		<div class="header__top">
-			<a href="index.html" class="header__top-element"><div class="header__logo">EVAN<br>VADA</div></a>
-			<div class="header__top-element header__burger"><div class="burger auto-color icon"></div></div>
-			<nav class="header__desktop-nav">
-				<a href="index.html#portfolio" class="header__top-element"><span>PORTFOLIO</span></a>
-				<a href="index.html#about" class="header__top-element"><span>À_PROPOS</span></a>
-				<a href="index.html#contact" class="header__top-element"><span>CONTACT</span></a>
-			</nav>
-		</div>
-		<div class="header__overlay">
-			<nav class="header__mobile-nav">
-				<a href="index.html#portfolio" class="header__overlay-element"><div class="house auto-color icon"></div><span>> PORTFOLIO</span><span>></span></a>
-				<a href="index.html#about" class="header__overlay-element"><div class="magnify auto-color icon"></div><span>> À_PROPOS</span><span>></span></a>
-				<a href="index.html#contact" class="header__overlay-element"><div class="mail auto-color icon"></div><span>> CONTACT</span><span>></span></a>
-			</nav>
-		</div>
+		<a href="javascript:void(0);" class="header__element" onclick="document.getElementById('hero').scrollIntoView();"><div class="header__logo">EVAN<br>VADA</div></a>
+		<div class="header__element header__burger"><div class="burger auto-color icon"></div></div>
+		<nav class="header__nav">
+			<a href="index.html#portfolio" class="header__element"><span>PORTFOLIO</span></a>
+			<a href="index.html#about" class="header__element"><span>À_PROPOS</span></a>
+			<a href="index.html#contact" class="header__element"><span>CONTACT</span></a>
+			<div class="header__element" onclick="toggleTheme()"><div class="darklight auto-color icon"></div></div>
+		</nav>
 	</header>
+
+	<div class="mobile-menu">
+		<nav class="mobile-menu__nav">
+			<a href="index.html#portfolio" class="mobile-menu__element"><div class="house auto-color icon"></div><span>> PORTFOLIO</span><span>></span></a>
+			<div class="mobile-menu__separator"></div>
+			<a href="index.html#about" class="mobile-menu__element"><div class="magnify auto-color icon"></div><span>> À_PROPOS</span><span>></span></a>
+			<div class="mobile-menu__separator"></div>
+			<a href="index.html#contact" class="mobile-menu__element"><div class="mail auto-color icon"></div><span>> CONTACT</span><span>></span></a>
+			<div class="mobile-menu__separator"></div>
+		</nav>
+		<nav class="mobile-menu__bottom-nav">
+			<div class="mobile-menu__separator"></div>
+			<div class="mobile-menu__bottom-nav-nav">
+				<div class="mobile-menu__bottom-nav-nav-nav">
+					<a href="https://www.linkedin.com/in/evan-vada-12B30A27A" target="_blank" class="linkedin auto-color icon"></a>
+					<a href="https://www.github.com/evanvada" target="_blank" class="github auto-color icon"></a>
+					<a href="" target="_blank" class="mail auto-color icon"></a>
+				</div>
+				<div class="mobile-menu__bottom-nav-nav-nav">
+					<div class="darklight auto-color icon" onclick="toggleTheme()"></div>
+				</div>
+			</div>
+		</nav>
+	</div>
 
 	<section class="hero dither-bottom" id="hero">
 		<div class="hero__bg"></div>
@@ -89,7 +105,7 @@
 		</nav>
 	</footer>
 	
-	<script src="main.js"></script>
+	<script src="menu.js"></script>
 	<script src="theme.js"></script>
 </body>
 </html>
