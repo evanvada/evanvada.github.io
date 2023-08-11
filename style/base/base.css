@@ -16,16 +16,23 @@ html, body {
 
 	scroll-behavior: smooth;
 
-	color: var(--text-color);
-	background: none;
+	color: var(--color-text);
+	background: var(--color-bg);
 }
+
+
+
+
 
 
 /* TYPOGRAPHY */
 
-* {
+body {
 	font-family: var(--font-content);
 	font-size: var(--text-size);
+}
+
+* {
 	font-weight: normal;
 	line-height: 1.25em;
 }

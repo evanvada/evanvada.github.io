@@ -22,6 +22,7 @@
 
 .fat-button span {
 	font-family: var(--font-special);
+	display: block;
 }
 
 
@@ -30,14 +31,20 @@
 }
 
 .primary-button {
-	background: rgba(12,23,61,1);
-	border-color: rgba(12,23,61,1);
-	box-shadow: 0 2px 5px rgba(12,23,61,0.1);
+	color: var(--color-bg);
+	background: var(--color-action);
+	border-color: var(--color-action);
+}
+
+.primary-button .icon {
+	filter: var(--icon-action-filter-1);
 }
 
 .secondary-button {
-	color: var(--text-color);
-	border-color: rgba(12,23,61,1);
-	box-shadow: 0 2px 5px rgba(12,23,61,0.1);
+	color: var(--color-action);
+	border-color: var(--color-action);
 }
 
+.secondary-button .icon {
+	filter: var(--icon-action-filter-2);
+}

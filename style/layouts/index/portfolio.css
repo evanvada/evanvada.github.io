@@ -2,8 +2,9 @@
 
 
 .portfolio {
-	background: var(--background-color);
-	padding: 32px var(--lateral-padding);
+	background: var(--color-bg);
+	max-width: var(--content-width);
+	margin: 32px var(--lateral-margin);
 	position: relative;
 }
 

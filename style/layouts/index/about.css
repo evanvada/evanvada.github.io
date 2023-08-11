@@ -4,8 +4,9 @@
 
 
 .about {
-	padding: 32px var(--lateral-padding);
-	background: var(--background-color);
+	margin: 32px var(--lateral-margin);
+	max-width: var(--content-width);
+	background: var(--color-bg);
 	position: relative;
 }
 
@@ -100,7 +101,7 @@
 	font-size: 10px;
 	font-family: var(--font-titles);
 	position: absolute;
-	opacity: 0.3;
+	opacity: 0.5;
 	
 	left: 50%;
 	bottom: -20px;

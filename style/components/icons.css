@@ -97,6 +97,6 @@
 }
 
 .icon.auto-color {
-	filter: brightness(var(--icons-brightness));
+	filter: var(--icon-filter);
 }
 
