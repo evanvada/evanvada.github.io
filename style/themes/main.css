@@ -9,7 +9,7 @@
 	--color-text: var(--color-dark);
 	--color-bg: var(--color-light);
 
-	--icon-filter: brightness(0);
+	--icon-filter: brightness(0) invert(4%) sepia(3%) saturate(4853%) hue-rotate(202deg) brightness(95%) contrast(81%);
 	--dither-filter: brightness(100);
 }
 
