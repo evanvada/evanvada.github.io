@@ -1,0 +1,24 @@
+
+.light {
+	--color-light: #ffffff;
+	--color-dark: #202024;
+	--color-1: #FFAF65;
+	--color-2: #BBE2EE;
+	--color-3: #195b85;
+
+	--color-action: var(--color-3);
+	--color-text: var(--color-dark);
+	--color-bg: var(--color-light);
+}
+
+.dark {
+	--color-light: #ffffff;
+	--color-dark: #202024;
+	--color-1: #FFAF65;
+	--color-2: #BBE2EE;
+	--color-3: #195b85;
+
+	--color-action: var(--color-1);
+	--color-text: var(--color-light);
+	--color-bg: var(--color-dark);
+}

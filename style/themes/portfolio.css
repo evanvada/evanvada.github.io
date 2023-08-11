@@ -1,0 +1,34 @@
+
+.light {
+	--color-light: #ffffff;
+	--color-dark: #202024;
+	--color-1: #FFAF65;
+	--color-2: #BBE2EE;
+	--color-3: #195b85;
+
+	--color-action: var(--color-3);
+	--color-text: var(--color-dark);
+	--color-bg: var(--color-light);
+
+	--icon-filter: brightness(0);
+	--icon-action-filter-1: brightness(100);
+	--icon-action-filter-2: brightness(0) invert(28%) sepia(65%) saturate(604%) hue-rotate(160deg) brightness(94%) contrast(93%);
+	--dither-filter: brightness(100);
+}
+
+.dark {
+	--color-light: #ffffff;
+	--color-dark: #202024;
+	--color-1: #FFAF65;
+	--color-2: #195b85;
+	--color-3: #BBE2EE;
+
+	--color-action: var(--color-1);
+	--color-text: var(--color-light);
+	--color-bg: var(--color-dark);
+	
+	--icon-filter: brightness(100);
+	--icon-action-filter-1: brightness(0) invert(4%) sepia(3%) saturate(4853%) hue-rotate(202deg) brightness(95%) contrast(81%);
+	--icon-action-filter-2: brightness(0) invert(66%) sepia(51%) saturate(449%) hue-rotate(343deg) brightness(102%) contrast(101%);
+	--dither-filter: brightness(0) invert(4%) sepia(3%) saturate(4853%) hue-rotate(202deg) brightness(95%) contrast(81%);
+}

@@ -30,9 +30,9 @@
 
 
 .bottom-hero__overlay {
-	width: 100%;
+	max-width: var(--content-width);
 	height: 100%;
-	padding: 0 var(--lateral-padding);
+	margin: 0 var(--lateral-margin);
 	padding-top: calc(32px + 24px);
 	padding-bottom: 32px;
 

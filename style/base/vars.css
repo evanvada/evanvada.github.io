@@ -1,7 +1,6 @@
 :root {
 	--stroke-size: 2px;
 	--header-height: 64px;
-	--lateral-padding: 10vw;
 	--h1-size: 3.5rem;
 	--h2-size: 2rem;
 	--h3-size: 1.25rem;
@@ -11,20 +10,39 @@
 	--font-special: Roboto Mono;
 	--font-titles: Merriweather;
 
-	--color-1: #FFAF65;
-	--color-2: #BBE2EE;
+	/* --color-1: #FFAF65; */
+	/* --color-2: #BBE2EE; */
 
-	--background-color: #fff;
-	--text-color: #000;
+	/* --background-color: #fff; */
+	/* --text-color: #000; */
 	--icons-brightness: 0;
-	--dither-image: url("../../media/dither.png");
 
-	/* --background-color: #202024;
-	--text-color: #fff;
-	--icons-brightness: 1;
-	--dither-image: url("../../media/dither2.png");
-	--color-2: #195b85; */
+	--lateral-margin: 10vw;
+	--content-width: 1360px;
 }
+
+
+
+@media (min-width: calc(1360px + 20vw)) {
+	:root {
+		--lateral-margin: auto;
+	}
+}
+
+
+/*
+--icons-brightness: 1;
+--dither-image: url("../../media/dither2.png");
+*/
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 1280px) {
@@ -46,7 +64,7 @@
 		--h1-size: 1.5rem;
 		--h3-size: 1.125rem;
 		--text-size: 14px;
-		--lateral-padding: 18px;
+		--lateral-margin: 18px;
 	}
 }
 

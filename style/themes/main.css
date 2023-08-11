@@ -1,0 +1,32 @@
+
+.light {
+	--color-light: #ffffff;
+	--color-dark: #202024;
+	--color-1: #FFAF65;
+	--color-2: #BBE2EE;
+	--color-3: #195b85;
+
+	--color-text: var(--color-dark);
+	--color-bg: var(--color-light);
+
+	--icon-filter: brightness(0);
+	--dither-filter: brightness(100);
+}
+
+.dark {
+	--color-light: #ffffff;
+	--color-dark: #202024;
+	--color-1: #FFAF65;
+	--color-2: #195b85;
+	--color-3: #BBE2EE;
+
+	--color-text: var(--color-light);
+	--color-bg: var(--color-dark);
+	
+	--icon-filter: brightness(100);
+	--dither-filter: brightness(0) invert(4%) sepia(3%) saturate(4853%) hue-rotate(202deg) brightness(95%) contrast(81%);
+}
+
+
+
+

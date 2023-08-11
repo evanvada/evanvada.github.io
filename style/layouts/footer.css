@@ -1,25 +1,6 @@
-/* 
+
+
 .footer {
-	height: 32px;
-	background: #222;
-	color: #555;
-
-	padding: 0 var(--lateral-padding);;
-
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	justify-content: center;
-}
-
-.footer > span {
-	width: 100%;
-	text-align: center;
-}
- */
-
-
- .footer {
 	background: #202024;
 
 	padding: 12px 0;
