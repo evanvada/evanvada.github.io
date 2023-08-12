@@ -106,7 +106,7 @@
 }
 
 .mobile-menu__element {
-	height: 64px;
+	height: 56px;
 	display: flex;
 	align-items: center;
 	padding: 12px;
@@ -124,7 +124,7 @@
 }
 
 .mobile-menu__element span {
-	font-size: 1.125rem;
+	font-size: 1rem;
 }
 
 .mobile-menu__element span:nth-child(2) {
