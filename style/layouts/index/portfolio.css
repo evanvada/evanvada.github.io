@@ -127,7 +127,7 @@
 
 
 .portfolio-project__color-overlay.proj1 {
-	background: rgba(214, 129, 105,0.3);
+	background: rgba(214,129,105,0.3);
 }
 
 .portfolio-project__bg.proj1 {
@@ -135,10 +135,24 @@
 }
 
 .portfolio-project__gradient.proj1 {
-	background: linear-gradient(rgba(77,117,255,0) 20%, rgba(77,117,255,0.2) 40%, rgba(23, 41, 107, 0.9) 75%, rgba(12,23,61,1) 100%);
+	background: linear-gradient(rgba(77,117,255,0) 20%, rgba(77,117,255,0.2) 40%, rgba(23,41,107,0.9) 75%, rgba(12,23,61,1) 100%);
 }
 
 
+
+
+
+.portfolio-project__color-overlay.proj2 {
+	background: rgba(255,190,130,0.3);
+}
+
+.portfolio-project__bg.proj2 {
+	background-image: url("../../../media/thumbnail2.png");
+}
+
+.portfolio-project__gradient.proj2 {
+	background: linear-gradient(rgba(246,28,204,0) 50%, rgba(246,28,204,0.1) 70%, rgba(0,104,187,0.8) 100%);
+}
 
 
 

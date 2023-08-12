@@ -84,6 +84,9 @@
 	font-size: var(--text-size);
 	width: 100%;
 	
+	-webkit-tap-highlight-color: transparent;
+	outline: none;
+	
 	color: #fff;
 	padding: 0.25em 0.5em;
 	background: rgba(29, 30, 32, 0.5);
@@ -138,6 +141,7 @@
 
 .bottom-hero__info-element:hover {
 	padding-left: 12px;
+	cursor: pointer;
 }
 
 .bottom-hero__info-element .icon {

@@ -109,6 +109,7 @@
 	height: 64px;
 	display: flex;
 	align-items: center;
+	padding: 12px;
 }
 
 .mobile-menu__separator {
@@ -119,7 +120,7 @@
 }
 
 .mobile-menu__element .icon {
-	margin: 0 12px;
+	margin-right: 12px;
 }
 
 .mobile-menu__element span {
