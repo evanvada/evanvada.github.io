@@ -8,8 +8,6 @@
 	box-sizing: border-box;
 
 	word-wrap: break-word;
-
-	transition: color 0.2s ease;
 }
 
 html, body {
@@ -21,6 +19,25 @@ html, body {
 	color: var(--color-text);
 	background: var(--color-bg);
 }
+
+/* prevent FOUC */
+body > * {
+	animation: loading 0.5s;
+}
+@keyframes loading {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.text-only-transition * {
+	transition: color 0.2s ease !important;
+}
+
+
 
 
 

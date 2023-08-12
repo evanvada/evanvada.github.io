@@ -26,9 +26,10 @@
 	<title>Portfolio Evan</title>
 </head>
 <body>
+	<script src="theme.js"></script>
 
 	<header class="header">
-		<a href="javascript:void(0);" class="header__element" onclick="document.getElementById('hero').scrollIntoView();"><div class="header__logo">EVAN<br>VADA</div></a>
+		<a href="javascript:void(0);" class="header__element" onclick="document.getElementById('hero').scrollIntoView(); history.replaceState({}, document.title, window.location.pathname + window.location.search);"><div class="header__logo">EVAN<br>VADA</div></a>
 		<div class="header__element header__burger"><div class="burger auto-color icon"></div></div>
 		<nav class="header__nav">
 			<a href="index.html#portfolio" class="header__element"><span>PORTFOLIO</span></a>
@@ -66,7 +67,7 @@
 		<div class="hero__bg"></div>
 		<div class="hero__overlay">
 			<h1>DÉV FULLSTACK</h1>
-			<h3>Passionné depuis très jeune, j'ai extrêmement hâte de commencer à travailler en équipe en apprentissage</h3>
+			<h3>Passionné depuis très jeune, j'ai extrêmement hâte de commencer à travailler en apprentissage</h3>
 			<input class="fat-button" type="button" value="> Contacter" onclick="window.location.href='index.html#contact'">
 		</div>
 	</section>
@@ -96,8 +97,8 @@
 			<div class="about__myself">
 				<div class="title-decor highlight"><h3>DE MOI</h3></div>
 				<p>• Bonjour, je m'appelle Evan et je suis passionné d'informatique depuis très jeune. À 14 ans, je commençais déjà à créer des petits jeux avec Python.</p>
-				<p>• Je suis assez doué en dessin, de ce fait, je suis plutôt intéressé par l'art, le design et le visuel. Cependant, je suis particulièrement attiré par la dimension technique des programmes.</p>
-				<p>• Et c'est pour ces raisons, que j'aime le métier de développeur full-stack. De ce fait, j'ai extêmmement hâte de commençer mon apprentissage&nbsp;!</p>
+				<p>• Je suis assez doué en dessin, de ce fait, je suis un peu intéressé par l'art et le design. Cependant, je suis particulièrement attiré par la dimension technique des logiciels, où je veux tout comprendre en détails&nbsp;!</p>
+				<p>• Pour ces raisons, j'aime le métier de développeur full-stack. Et j'ai extêmmement hâte de commençer mon apprentissage&nbsp;!</p>
 			</div>
 			<div class="about__skills">
 				<div class="title-decor highlight"><h3>MES COMPÉTENCES</h3></div>
@@ -158,6 +159,5 @@
 	
 	<script src="index.js"></script>
 	<script src="menu.js"></script>
-	<script src="theme.js"></script>
 </body>
 </html>

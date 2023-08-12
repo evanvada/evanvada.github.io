@@ -133,6 +133,11 @@
 	text-decoration-line: none;
 	color: #fff;
 	width: fit-content;
+	transition: padding-left 0.2s ease;
+}
+
+.bottom-hero__info-element:hover {
+	padding-left: 12px;
 }
 
 .bottom-hero__info-element .icon {

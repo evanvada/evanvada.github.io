@@ -1,0 +1,30 @@
+
+
+
+
+
+
+
+.showcase {
+	margin: 32px var(--lateral-margin);
+	max-width: var(--content-width);
+}
+
+.showcase__buttons {
+	display: flex;
+	padding-bottom: 24px;
+	width: 100%;
+	gap: 24px;
+}
+
+.showcase__buttons > button {
+	width: min(400px, 100%);
+}
+
+@media (max-width: 960px) {
+	.showcase__buttons {
+		flex-direction: column;
+	}
+}
+
+

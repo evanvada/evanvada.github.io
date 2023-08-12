@@ -6,9 +6,9 @@
 	--h3-size: 1.25rem;
 	--text-size: 16px;
 
-	--font-content: Roboto;
-	--font-special: Roboto Mono;
-	--font-titles: Merriweather;
+	--font-content: Roboto, Sans-serif;
+	--font-special: Roboto Mono, Monospace;
+	--font-titles: Merriweather, Serif;
 
 	--lateral-margin: 10vw;
 	--content-width: 1360px;
