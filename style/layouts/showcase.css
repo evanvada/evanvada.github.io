@@ -17,7 +17,7 @@
 	gap: 24px;
 }
 
-.showcase__buttons > button {
+.showcase__buttons > .fat-button {
 	width: min(400px, 100%);
 }
 
