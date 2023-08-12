@@ -1,9 +1,13 @@
 
 
+/* default version with an outline & transparent background */
 
 .fat-button {
 	font-size: var(--h3-size);
 	color: #fff;
+	
+	overflow: hidden;
+	white-space: nowrap;
 	
 	background: none;
 	border: solid var(--stroke-size) #fff;
@@ -13,7 +17,7 @@
 	border-radius: 2px;
 	font-family: var(--font-special);
 	text-align: left;
-	padding-left: 24px;
+	padding-left: 12px;
 	transition: border-radius 0.2s ease, background 0.2s ease, padding-left 0.2s ease;
 }
 
@@ -23,3 +27,50 @@
 	border-radius: 25px;
 }
 
+
+
+
+/* version containing .icon & span elements */
+
+.fat-button.w-icon {
+	display: flex;
+	align-items: center;
+	padding-left: 8px;
+}
+
+.fat-button.w-icon:hover {
+	padding-left: 32px;
+}
+
+.fat-button.w-icon span {
+	font-family: var(--font-special);
+	display: block;
+}
+
+.fat-button.w-icon .icon {
+	margin-right: 12px;
+}
+
+
+
+
+/* versions used for a primary and secondary button */
+
+.fat-button.primary-button {
+	color: var(--color-bg);
+	background: var(--color-action);
+	border-color: var(--color-action);
+}
+
+.fat-button.primary-button .icon {
+	filter: var(--icon-action-filter-1);
+}
+
+.fat-button.secondary-button {
+	color: var(--color-action);
+	border-color: var(--color-action);
+}
+
+.fat-button.secondary-button .icon {
+	filter: var(--icon-action-filter-2);
+}
