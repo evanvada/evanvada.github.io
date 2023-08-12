@@ -11,7 +11,7 @@
 	width: 100%;
 	z-index: -10;
 
-	background-image: url("../../../media/hero3.png");
+	background-image: url("../../../media/hero4.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: repeat;
@@ -24,7 +24,7 @@
 	padding-top: var(--header-height);
 	padding-bottom: 24px;
 
-	color: #fff;
+	color: rgb(0,104,187);
 
 	display: flex;
 	flex-direction: column;
@@ -32,7 +32,7 @@
 }
 
 .hero__overlay > h1 {
-	border-bottom: solid var(--stroke-size) white;
+	border-bottom: solid var(--stroke-size) rgb(0,104,187);
 	padding-bottom: 6px;
 }
 
@@ -49,7 +49,7 @@
 	bottom: 0%;
 	z-index: -1;
 
-	background: linear-gradient(rgba(77,117,255,0) 0%, rgba(77,117,255,0.2) 40%, rgba(12,23,61,1) 100%);
+	background: linear-gradient(rgba(246,28,204,0) 0%, rgba(246,28,204,0.2) 40%, rgba(0,104,187,1) 100%);
 }
 
 
