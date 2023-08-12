@@ -2,17 +2,32 @@
 let burger = document.querySelector('.header__burger')
 let menu = document.querySelector('.mobile-menu')
 let icon = document.querySelector('.header__burger .icon')
-let side_links = document.querySelectorAll('.mobile-menu__nav a')
-let logo = document.querySelector('.header > a')
+let links = document.querySelectorAll('.mobile-menu__nav a, .header > a')
 
-side_links.forEach(a => {
+links.forEach(a => {
 	a.addEventListener('click', () => {
+		// close menu if the link redirects to the same page
+
+		const current_url = window.location.href;
+		const clicked_url = a.href;
+		const current_path = current_url.split('#')[0];
+		const clicked_path = clicked_url.split('#')[0];
+		
+		if (clicked_url == "javascript:void(0);") {
+			closeMobileMenu();
+			return;
+		}
+
+		if (current_path !== clicked_path) {
+			return;
+		}
+
+		if (clicked_url == clicked_path) {
+			return;
+		}
+
 		closeMobileMenu();
 	})
-})
-
-logo.addEventListener('click', () => {
-	closeMobileMenu();
 })
 
 burger.addEventListener('click', () => {
