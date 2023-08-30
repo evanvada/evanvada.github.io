@@ -4,19 +4,21 @@
 
 
 .about {
-	margin: 32px var(--lateral-margin);
+	margin: 0 var(--lateral-margin);
+	padding-top: 96px;
+	padding-bottom: 64px;
 	max-width: var(--content-width);
 	background: var(--color-bg);
 	position: relative;
 }
 
 .about .title-decor {
-	margin-bottom: 24px;
+	margin-bottom: 40px;
 }
 
 .about__grid {
 	display: grid;
-	grid-gap: 24px 24px;
+	grid-gap: 48px 24px;
 	grid-template-columns: 2fr 1fr;
 	grid-template-rows: auto auto 1fr;
 }
@@ -41,7 +43,7 @@
 .about__myself p {
 	padding-left: 32px;
 	padding-right: 10%;
-	padding-bottom: 6px;
+	padding-bottom: 12px;
 }
 
 .about__skills {

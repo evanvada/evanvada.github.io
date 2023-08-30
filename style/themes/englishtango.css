@@ -2,9 +2,9 @@
 .light {
 	--color-light: #ffffff;
 	--color-dark: #202024;
-	--color-1: #FFBE82;
+	--color-1: #FFDAB8;
 	--color-2: #F61CCC;
-	--color-3: #0272CC;
+	--color-3: #004DB1;
 
 	--color-action: var(--color-3);
 	--color-text: var(--color-dark);
@@ -12,15 +12,15 @@
 
 	--icon-filter: brightness(0);
 	--icon-action-filter-1: brightness(100);
-	--icon-action-filter-2: brightness(0) invert(27%) sepia(80%) saturate(1583%) hue-rotate(187deg) brightness(104%) contrast(99%);
+	--icon-action-filter-2: brightness(0) saturate(100%) invert(18%) sepia(79%) saturate(3298%) hue-rotate(206deg) brightness(85%) contrast(101%);
 	--dither-filter: brightness(100);
 }
 
 .dark {
 	--color-light: #ffffff;
 	--color-dark: #202024;
-	--color-1: #FFBE82;
-	--color-2: #0272CC;
+	--color-1: #FFDAB8;
+	--color-2: #004DB1;
 	--color-3: #F61CCC;
 
 	--color-action: var(--color-1);
@@ -29,6 +29,6 @@
 	
 	--icon-filter: brightness(100);
 	--icon-action-filter-1: brightness(0) invert(4%) sepia(3%) saturate(4853%) hue-rotate(202deg) brightness(95%) contrast(81%);
-	--icon-action-filter-2: brightness(0) invert(74%) sepia(30%) saturate(630%) hue-rotate(338deg) brightness(103%) contrast(101%);
+	--icon-action-filter-2: brightness(0) saturate(100%) invert(76%) sepia(42%) saturate(250%) hue-rotate(337deg) brightness(108%) contrast(102%);
 	--dither-filter: brightness(0) invert(4%) sepia(3%) saturate(4853%) hue-rotate(202deg) brightness(95%) contrast(81%);
 }
