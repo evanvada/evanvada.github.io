@@ -6,13 +6,13 @@
 
 
 .showcase {
-	margin: 32px var(--lateral-margin);
+	margin: 64px var(--lateral-margin);
 	max-width: var(--content-width);
 }
 
 .showcase__buttons {
 	display: flex;
-	padding-bottom: 24px;
+	padding-bottom: 64px;
 	width: 100%;
 	gap: 24px;
 }

@@ -4,12 +4,13 @@
 .portfolio {
 	background: var(--color-bg);
 	max-width: var(--content-width);
-	margin: 32px var(--lateral-margin);
+	margin: 0 var(--lateral-margin);
+	padding-top: 48px;
 	position: relative;
 }
 
 .portfolio .title-decor {
-	margin-bottom: 24px;
+	margin-bottom: 40px;
 }
 
 .portfolio__grid {
