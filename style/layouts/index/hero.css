@@ -3,17 +3,22 @@
 
 
 
+/* this element will have a heigt of 80% but will stretch if it is too small */
 .hero {
-	height: 80%;
+	min-height: 80%;
 	overflow: hidden;
 	position: relative;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .hero__bg {
 	position: absolute;
-	height: calc(100% + 200px);
+	height: calc(100%);
 	width: 100%;
-	z-index: -1;
+	z-index: -10;
 
 	background-image: url("../../../media/hero1.png");
 	background-attachment: fixed;
@@ -26,8 +31,8 @@
 	max-width: var(--content-width);
 	height: 100%;
 	margin: 0 var(--lateral-margin);
-	padding-top: var(--header-height);
-	padding-bottom: 24px;
+	padding-top: calc(64px + var(--header-height));
+	padding-bottom: 64px;
 
 	color: #fff;
 

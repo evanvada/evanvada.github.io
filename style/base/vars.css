@@ -20,6 +20,11 @@
 	:root {
 		--lateral-margin: auto;
 	}
+	/* doesn't stretch fully without those, AI & I don't know why */
+	.hero__overlay,
+	.bottom-hero__overlay {
+		width: 100%;
+	}
 }
 
 
@@ -50,7 +55,6 @@
 	:root {
 		--h1-size: 1.5rem;
 		--h3-size: 1.125rem;
-		--text-size: 14px;
 		--lateral-margin: 18px;
 	}
 }

@@ -3,22 +3,22 @@
 
 
 
-
+/* this element will have a heigt of 80% but will stretch if it is too small */
 .bottom-hero {
-	height: 80%;
-	position: relative;
+	min-height: 80%;
 	overflow: hidden;
-}
+	position: relative;
 
-.bottom-hero .title-decor {
-	margin-bottom: 24px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .bottom-hero__bg {
 	position: absolute;
-	height: calc(100% + 200px);
+	height: calc(100%);
 	width: 100%;
-	z-index: -1;
+	z-index: -10;
 
 	background-image: url("../../../media/hero2.png");
 	background-attachment: fixed;
@@ -27,20 +27,25 @@
 	background-size: cover;
 }
 
-
-
-
 .bottom-hero__overlay {
 	max-width: var(--content-width);
 	height: 100%;
 	margin: 0 var(--lateral-margin);
-	padding-top: calc(32px + 24px);
-	padding-bottom: 32px;
+	padding-top: calc(64px + 24px);
+	padding-bottom: 64px;
 
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
+
+.bottom-hero .title-decor {
+	margin-bottom: 24px;
+}
+
+
+
+
 
 
 
@@ -54,7 +59,7 @@
 
 .bottom-hero__container {
 	display: flex;
-	gap: 80px;
+	gap: 64px 80px;
 }
 
 
@@ -63,7 +68,7 @@
 
 .bottom-hero__form {
 	display: block;
-	width: 40em;
+	flex: 1;
 	
 	display: flex;
 	justify-content: flex-start;
@@ -87,8 +92,9 @@
 	
 	color: #fff;
 	padding: 0.25em 0.5em;
-	background: rgba(29, 30, 32, 0.5);
+	background: rgba(29, 30, 32, 0.6);
 	border-left: solid var(--stroke-size) #fff;
+	border-top: solid var(--stroke-size) #fff;
 }
 
 .bottom-hero__form > textarea {
@@ -106,7 +112,7 @@
 
 .bottom-hero__form > button {
 	margin-top: 24px;
-	width: min(320px, 100%);
+	width: min(400px, 100%);
 }
 
 .bottom-hero__form > button:hover {
@@ -114,11 +120,13 @@
 }
 
 .bottom-hero__form > button div {
+	font-family: var(--font-special);
 	display: inline-block;
 	width: 400%;
 }
 
 .bottom-hero__form > button div span {
+	font-family: var(--font-special);
 	display: inline-block;
 	width: 50%;
 }
@@ -152,6 +160,7 @@
 
 .bottom-hero__info {
 	color: #fff;
+	flex: 1;
 }
 
 .bottom-hero__info > h3 {
@@ -195,13 +204,9 @@
 
 
 @media (max-width: 960px) {
-	.bottom-hero {
-		height: unset;
-	}
 
 	.bottom-hero__container {
 		flex-direction: column-reverse;
-		gap: 40px;
 	}
 
 	.bottom-hero__form {
