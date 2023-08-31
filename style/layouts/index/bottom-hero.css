@@ -96,13 +96,49 @@
 	resize: none;
 }
 
-.bottom-hero__form > input[type="submit"] {
+
+
+
+
+
+
+
+
+.bottom-hero__form > button {
 	margin-top: 24px;
 	width: min(320px, 100%);
 }
 
-.bottom-hero__form > input[type="submit"]:hover {
+.bottom-hero__form > button:hover {
 	background: rgba(29, 30, 32, 0.5);
+}
+
+.bottom-hero__form > button div {
+	display: inline-block;
+	width: 400%;
+}
+
+.bottom-hero__form > button div span {
+	display: inline-block;
+	width: 50%;
+}
+
+.bottom-hero__form > button.shift > *:first-child {
+    animation: submitShiftAnimation 0.2s ease-in-out;
+	transform: translateX(-50%);
+}
+
+.bottom-hero__form > button.shift:hover > *:first-child {
+	margin-left: 12px;
+}
+
+@keyframes submitShiftAnimation {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
 }
 
 

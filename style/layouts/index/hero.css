@@ -47,12 +47,12 @@
 	font-family: var(--font-content);
 }
 
-.hero__overlay > input[type="button"] {
+.hero__overlay > button {
 	margin-top: 24px;
 	width: min(400px, 100%);
 }
 
-.hero__overlay > input[type="button"]:hover {
+.hero__overlay > button:hover {
 	background: rgba(90, 140, 157, 0.5);
 }
 

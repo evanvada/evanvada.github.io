@@ -73,7 +73,7 @@
 		<div class="hero__overlay">
 			<h1>DÉV FULLSTACK</h1>
 			<h3>Passionné depuis très jeune, j'ai extrêmement hâte de commencer à travailler en apprentissage</h3>
-			<input class="fat-button" type="button" value="> Contacter" onclick="window.location.href='index.html#contact'">
+			<button class="fat-button" type="button" onclick="window.location.href='index.html#contact'"><span>> Contacter</span></button>
 		</div>
 	</section>
 
@@ -128,8 +128,8 @@
 			<div class="about__skills-2">
 				<div class="title-decor highlight"><h3>À VOIR EN APPRENTISAGE</h3></div>
 				<div class="about__skills-collection">
-					<div class="about__skill-element"><div class="react auto-color icon"></div><span>React</span></div>
 					<div class="about__skill-element"><div class="nodejs auto-color icon"></div><span>NodeJS</span></div>
+					<div class="about__skill-element"><div class="react auto-color icon"></div><span>React</span></div>
 					<div class="about__skill-element"><div class="mongodb auto-color icon"></div><span>MongoDB</span></div>
 				</div>
 			</div>
@@ -143,13 +143,20 @@
 		<div class="bottom-hero__overlay">
 			<div class="title-decor white right"><h2>CONTACT</h2></div>
 			<div class="bottom-hero__container">
+
+
+				<!-- <form class="bottom-hero__form" action="https://formspree.io/f/mrgwkbpk" method="POST"> -->
 				<form class="bottom-hero__form">
 					<label for="email">> EMAIL</label>
-					<input id="email" type="email" required>
+					<input id="email" type="email" name="email" required>
 					<label for="message">> MESSAGE</label>
-					<textarea id="message" required></textarea>
-					<input class="fat-button" type="submit" value="> Envoyer">
+					<textarea id="message" name="text" required></textarea>
+					<button class="fat-button" type="submit"><span>> Envoyer</span></button>
 				</form>
+
+				
+
+
 				<div class="bottom-hero__info">
 					<h3>PRÊT À ME CONTACTER ?</h3>
 					<span>Trouve moi sur ces réseaux ou contacte moi à travers le formulaire</span>
@@ -163,7 +170,7 @@
 
 	<footer class="footer">
 		<div class="footer__element">
-			Copyright 2023 Evan Vada
+			Copyright 2023 Stefan aka Evan Vada
 		</div>
 		<nav class="footer__nav">
 			<a class="footer__element" href="index.html">Home</a>
