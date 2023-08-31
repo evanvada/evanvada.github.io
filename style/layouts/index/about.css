@@ -26,7 +26,6 @@
 .about__portrait {
 	position: relative;
 	overflow: hidden;
-	background: red;
 
 	/* magic, to prevent children to strech this parent */
 	width: 0;

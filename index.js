@@ -20,8 +20,8 @@ function copyEmail(element) {
 
 
 // handle form submit via Formspree
-const form = document.querySelector('.bottom-hero__form');
-form.addEventListener("submit", function(event) {
+const formE = document.querySelector('.bottom-hero__form');
+formE.addEventListener("submit", function(event) {
 	event.preventDefault();
 
     var data = new FormData(event.target);
@@ -65,6 +65,10 @@ function showStatus(text) {
 	formButton.classList.add("shift");
 	buttonLastText = text;
 }
+
+
+
+
 
 
 
