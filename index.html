@@ -25,8 +25,15 @@
 
 	<link rel="icon" href="favicon.png" type="image/png">
 	<title>Portfolio Stefan</title>
+	
+	<script>
+		window.onload = function() {
+			document.body.classList.remove('unloaded');
+			document.body.classList.add('loaded');
+		};
+	</script>
 </head>
-<body>
+<body class="unloaded">
 	<script src="theme.js"></script>
 
 	<header class="header">

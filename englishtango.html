@@ -23,8 +23,15 @@
 
 	<link rel="icon" href="favicon.png" type="image/png">
 	<title>Portfolio Stefan</title>
+	
+	<script>
+		window.onload = function() {
+			document.body.classList.remove('unloaded');
+			document.body.classList.add('loaded');
+		};
+	</script>
 </head>
-<body>
+<body class="unloaded">
 	<script src="theme.js"></script>
 
 	<header class="header">
@@ -72,7 +79,7 @@
 		<div class="hero__overlay">
 			<h2>ÉTUDE DE CAS</h2>
 			<h1>ENGLISH TANGO</h1>
-			<h3>Une version alternative de Duolingo</h3>
+			<h3>Apprendre l'anglais avec une version alternative de Duolingo</h3>
 		</div>
 	</section>
 

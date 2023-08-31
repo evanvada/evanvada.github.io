@@ -31,11 +31,11 @@ formE.addEventListener("submit", function(event) {
         headers: { 'Accept': 'application/json' }
 	})
 	.then(response => {
-		console.log("fetch returned:", JSON.stringify(response));
+		console.log("fetch returned:", response);
 
         if (response.ok) {
 			showStatus("> Message envoyé");
-            form.reset()
+            formE.reset()
         } else {
             response.json().then(data => {
                 if (data?.errors != null && data?.errors[0]?.code != null) {
@@ -51,7 +51,7 @@ formE.addEventListener("submit", function(event) {
         }
 	})
 	.catch(response => {
-		console.log("fetch error:", JSON.stringify(response));
+		console.log("fetch error:", response);
 		showStatus("> Erreur envoie message");
 	});
 });

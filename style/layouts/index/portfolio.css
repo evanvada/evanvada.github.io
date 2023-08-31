@@ -181,6 +181,7 @@
 
 
 @media (pointer: coarse) {
+	.portfolio__project:hover .portfolio-project__bg-overlay,
 	.portfolio-project__bg-overlay {
 		opacity: 0.5;
 	}

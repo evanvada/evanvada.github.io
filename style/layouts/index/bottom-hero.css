@@ -16,9 +16,9 @@
 
 .bottom-hero__bg {
 	position: absolute;
-	height: calc(100% + 200px);
+	height: calc(100%);
 	width: 100%;
-	z-index: -1;
+	z-index: -10;
 
 	background-image: url("../../../media/hero2.png");
 	background-attachment: fixed;
@@ -120,11 +120,13 @@
 }
 
 .bottom-hero__form > button div {
+	font-family: var(--font-special);
 	display: inline-block;
 	width: 400%;
 }
 
 .bottom-hero__form > button div span {
+	font-family: var(--font-special);
 	display: inline-block;
 	width: 50%;
 }

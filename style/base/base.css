@@ -22,7 +22,10 @@ html, body {
 }
 
 /* prevent FOUC */
-body > * {
+.unloaded > *:not(script) {
+	display: none;
+}
+.loaded > * {
 	animation: loading 0.5s;
 }
 @keyframes loading {

@@ -16,9 +16,9 @@
 
 .hero__bg {
 	position: absolute;
-	height: calc(100% + 200px);
+	height: calc(100%);
 	width: 100%;
-	z-index: -1;
+	z-index: -10;
 
 	background-image: url("../../../media/hero1.png");
 	background-attachment: fixed;

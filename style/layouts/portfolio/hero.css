@@ -1,8 +1,17 @@
 
+
+
+
+
+
 .hero {
-	height: 50%;
+	min-height: 70%;
 	overflow: hidden;
 	position: relative;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .hero__bg {
@@ -12,17 +21,18 @@
 	z-index: -10;
 
 	background-image: url("../../../media/hero3.png");
-	background-size: cover;
+	background-attachment: fixed;
 	background-position: center;
 	background-repeat: repeat;
+	background-size: cover;
 }
 
 .hero__overlay {
 	max-width: var(--content-width);
 	height: 100%;
 	margin: 0 var(--lateral-margin);
-	padding-top: var(--header-height);
-	padding-bottom: 24px;
+	padding-top: calc(64px + var(--header-height));
+	padding-bottom: 64px;
 
 	color: #fff;
 
@@ -55,7 +65,7 @@
 
 
 .hero__phone {
-	background-image: url("../../../media/phone1.png");
+	background-image: url("../../../media/mobile1.png");
 	background-position: center;
 	background-size: cover;
 	position: absolute;
@@ -81,8 +91,8 @@
 
 	box-shadow: 0 2px 5px rgba(12,23,61,1);
 
-	width: calc(1790px * 0.2);
-	height: calc(2650px * 0.2);
+	width: calc(1300px * 0.3);
+	height: calc(2800px * 0.3);
 	transform: rotate(11.25deg) translate(calc(-50% + 140px), -50%);
 
 	top: 65%;
