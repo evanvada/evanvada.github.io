@@ -42,7 +42,7 @@ formE.addEventListener("submit", function(event) {
 					if (data.errors[0].code == "TYPE_EMAIL") {
 						showStatus("> Erreur email invalide");
 					} else {
-						showStatus("> Erreur", data.errors[0].code);
+						showStatus("> Erreur " + data.errors[0].code);
 					}
                 } else {
 					showStatus("> Erreur inconnue");

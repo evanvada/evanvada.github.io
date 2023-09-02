@@ -91,6 +91,7 @@
 	width: 100%;
 	
 	color: #fff;
+	border-radius: 2px;
 	padding: 0.25em 0.5em;
 	background: rgba(29, 30, 32, 0.6);
 	border-left: solid var(--stroke-size) #fff;
