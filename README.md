@@ -29,7 +29,7 @@ I'm using BEM and the 7-1 pattern, but I'm not using Sass
 ###### JS files
 - theme.js: This script is executed at the start of `<body>`. The default value for the theme is set by the system's preferences. It also saves user's choise into localStorage
 - menu.js: Responsible for managing the mobile menu
-- index.js: Contains a listener to the form, sending an email and handling error messages
+- index.js: Specific by index.html. Allows for fast copy using `copyEmail()`. Contains a listener to the form, sending an email and handling error messages
 
 
 
