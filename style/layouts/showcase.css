@@ -6,13 +6,26 @@
 
 
 .showcase {
-	margin: 64px var(--lateral-margin);
+	margin: 32px var(--lateral-margin);
 	max-width: var(--content-width);
+}
+
+.showcase .title-decor {
+	margin-bottom: 24px;
+}
+
+.showcase .title-decor.underline > h1,
+.showcase .title-decor.underline > h2,
+.showcase .title-decor.underline > h3,
+.showcase .title-decor.underline > h4,
+.showcase .title-decor.underline > h5,
+.showcase .title-decor.underline > h6 {
+	border-bottom: 6px solid var(--color-3);
 }
 
 .showcase__buttons {
 	display: flex;
-	padding-bottom: 64px;
+	padding-bottom: 48px;
 	width: 100%;
 	gap: 24px;
 }

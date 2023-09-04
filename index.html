@@ -17,11 +17,13 @@
 	<link rel="stylesheet" href="style/components/title-decor.css">
 
 	<link rel="stylesheet" href="style/layouts/header.css">
-	<link rel="stylesheet" href="style/layouts/index/hero.css">
+	<link rel="stylesheet" href="style/layouts/hero.css">
 	<link rel="stylesheet" href="style/layouts/index/portfolio.css">
 	<link rel="stylesheet" href="style/layouts/index/about.css">
 	<link rel="stylesheet" href="style/layouts/index/bottom-hero.css">
 	<link rel="stylesheet" href="style/layouts/footer.css">
+
+	<link rel="stylesheet" href="style/index.css">
 
 	<link rel="icon" href="favicon.png" type="image/png">
 	<title>Portfolio Stefan</title>
@@ -55,18 +57,14 @@
 			<div class="mobile-menu__separator"></div>
 			<a href="index.html#contact" class="mobile-menu__element"><div class="mail auto-color icon"></div><span>> CONTACT</span><span>></span></a>
 			<div class="mobile-menu__separator"></div>
-			<a href="portfolio.html" class="mobile-menu__element"><div></div><span>> PROJET 1</span><span>></span></a>
-			<div class="mobile-menu__separator"></div>
-			<a href="englishtango.html" class="mobile-menu__element"><div></div><span>> PROJET 2</span><span>></span></a>
-			<div class="mobile-menu__separator"></div>
 		</nav>
 		<nav class="mobile-menu__bottom-nav">
 			<div class="mobile-menu__separator"></div>
 			<div class="mobile-menu__bottom-nav-nav">
 				<div class="mobile-menu__bottom-nav-nav-nav">
+					<a href="mailto:evanvadapro@gmail.com" target="_blank" class="mail auto-color icon"></a>
 					<a href="https://www.linkedin.com/in/evan-vada-12B30A27A" target="_blank" class="linkedin auto-color icon"></a>
 					<a href="https://www.github.com/evanvada" target="_blank" class="github auto-color icon"></a>
-					<a href="mailto:evanvadapro@gmail.com" target="_blank" class="mail auto-color icon"></a>
 				</div>
 				<div class="mobile-menu__bottom-nav-nav-nav">
 					<div class="darklight auto-color icon" onclick="toggleTheme()"></div>
@@ -88,15 +86,6 @@
 	<section class="portfolio">
 		<div class="title-decor left right underline"><h2>PROJETS</h2></div>
 		<div class="portfolio__grid">
-			<div class="portfolio__project" onclick="window.location.href='portfolio.html'">
-				<div class="portfolio-project__bg proj1"></div>
-				<div class="portfolio-project__bg-overlay proj1"></div>
-				<div class="portfolio-project__gradient proj1"></div>
-				<div class="portfolio-project__overlay">
-					<h3>MON PORTFOLIO</h3>
-					<span>Pour montrer mes projets et contacts et donner envie aux recruteurs</span>
-				</div>
-			</div>
 			<div class="portfolio__project" onclick="window.location.href='englishtango.html'">
 				<div class="portfolio-project__bg proj2"></div>
 				<div class="portfolio-project__bg-overlay proj2"></div>
@@ -104,6 +93,15 @@
 				<div class="portfolio-project__overlay">
 					<h3>ENGLISH TANGO</h3>
 					<span>Apprendre l'anglais avec une version alternative de Duolingo</span>
+				</div>
+			</div>
+			<div class="portfolio__project" onclick="window.location.href='portfolio.html'">
+				<div class="portfolio-project__bg proj1"></div>
+				<div class="portfolio-project__bg-overlay proj1"></div>
+				<div class="portfolio-project__gradient proj1"></div>
+				<div class="portfolio-project__overlay">
+					<h3>MON PORTFOLIO</h3>
+					<span>Pour montrer mes projets, mes contacts et donner envie aux recruteurs</span>
 				</div>
 			</div>
 		</div>
@@ -115,7 +113,7 @@
 		<div class="about__grid">
 			<div class="about__myself">
 				<div class="title-decor highlight"><h3>DE MOI</h3></div>
-				<p>• Bonjour, je m'appelle Stefan et je suis passionné d'informatique depuis très jeune. À 14 ans, je commençais déjà à créer des petits jeux avec Python.</p>
+				<p>• Bonjour, l'informatique a toujours été ma passion depuis très jeune. À 14 ans, je commençais déjà à créer des petits jeux avec Python.</p>
 				<p>• Je suis assez doué en dessin, de ce fait, je suis intéressé par l'art et le design. Cependant, je suis particulièrement attiré par la dimension technique des logiciels, où je veux tout comprendre en détails&nbsp;!</p>
 				<p>• Pour ces raisons, j'aime le métier de développeur full-stack. Et j'ai extêmmement hâte de commençer mon apprentissage&nbsp;!</p>
 			</div>
@@ -169,7 +167,7 @@
 
 	<footer class="footer">
 		<div class="footer__element">
-			Copyright 2023 Stefan aka Evan Vada
+			Copyright 2023 Evan Vada
 		</div>
 		<nav class="footer__nav">
 			<a class="footer__element" href="index.html">Home</a>
