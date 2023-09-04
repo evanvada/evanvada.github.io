@@ -1,13 +1,5 @@
 
 .hero__bg {
+	background-color: #dc7250;
 	background-image: url("../../../media/hero4.png");
 }
-
-.hero__overlay {
-	color: #004db1;
-}
-
-.hero__overlay > h1 {
-	border-bottom: solid var(--stroke-size) #004db1;
-}
-

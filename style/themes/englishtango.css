@@ -2,11 +2,11 @@
 .light {
 	--color-light: #ffffff;
 	--color-dark: #202024;
-	--color-1: #FFDAB8;
-	--color-2: #F61CCC;
-	--color-3: #004DB1;
+	--color-1: #D7815C;
+	--color-2: #004DB1;
+	--color-3: #ffb46e;
 
-	--color-action: var(--color-3);
+	--color-action: var(--color-2);
 	--color-text: var(--color-dark);
 	--color-bg: var(--color-light);
 
@@ -19,9 +19,9 @@
 .dark {
 	--color-light: #ffffff;
 	--color-dark: #202024;
-	--color-1: #FFDAB8;
+	--color-1: #D7815C;
 	--color-2: #004DB1;
-	--color-3: #F61CCC;
+	--color-3: #ffb46e;
 
 	--color-action: var(--color-1);
 	--color-text: var(--color-light);
@@ -29,6 +29,6 @@
 	
 	--icon-filter: brightness(100);
 	--icon-action-filter-1: brightness(0) invert(4%) sepia(3%) saturate(4853%) hue-rotate(202deg) brightness(95%) contrast(81%);
-	--icon-action-filter-2: brightness(0) saturate(100%) invert(76%) sepia(42%) saturate(250%) hue-rotate(337deg) brightness(108%) contrast(102%);
+	--icon-action-filter-2: brightness(0) saturate(100%) invert(75%) sepia(30%) saturate(2868%) hue-rotate(318deg) brightness(91%) contrast(84%);
 	--dither-filter: brightness(0) invert(4%) sepia(3%) saturate(4853%) hue-rotate(202deg) brightness(95%) contrast(81%);
 }

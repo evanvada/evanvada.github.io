@@ -32,6 +32,7 @@
 	margin: 0 var(--lateral-margin);
 	padding-top: calc(64px + var(--header-height));
 	padding-bottom: 64px;
+	color: white;
 
 	display: flex;
 	flex-direction: column;
@@ -40,6 +41,7 @@
 
 .hero__overlay > h1 {
 	padding-bottom: 6px;
+	border-bottom: solid var(--stroke-size) white;
 }
 
 .hero__overlay > h3 {
