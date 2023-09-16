@@ -29,9 +29,10 @@ I'm using the BEM and the 7-1 patterns, although I'm not using Sass
 - And no additional libraries or frameworks were used to keep the project simple and lightweight
 
 ### JS files
-- theme.js: This script is executed at the start of `<body>`. The default value for the theme is set by the system's preferences. It also saves user's choise into localStorage
-- menu.js: Responsible for managing the mobile menu
-- index.js: Specific by index.html. Allows for fast copy using `copyEmail()`. And also contains a listener to the form, sending an email and handling error messages using the Formspree service
+- `preload.js` Preloads all the images and handles page transition
+- `theme.js` This script is executed at the start of `<body>`. The default value for the theme is set by the system's preferences. It also saves user's choise into localStorage
+- `menu.js` Responsible for managing the mobile menu
+- `index.js` Specific by index.html. Allows for fast copy using `copyEmail()`. And also contains a listener to the form, sending an email and handling error messages using the Formspree service
 
 
 

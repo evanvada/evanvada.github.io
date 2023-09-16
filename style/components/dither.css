@@ -1,6 +1,7 @@
 
 
 .dither-top::before {
+	z-index: 1;
 	position: absolute;
 	display: block;
 	content: "";
@@ -8,12 +9,15 @@
 	height: 48px;
 	top: -24px;
 
-	background: url("../../media/dither.png");
-	background-size: auto 48px;
-	filter: var(--dither-filter);
+	background-color: var(--color-bg);
+	mask-image: url("../../media/dither.png");
+	mask-size: auto 48px;
+	-webkit-mask-image: url("../../media/dither.png");
+	-webkit-mask-size: auto 48px;
 }
 
 .dither-bottom::after {
+	z-index: 1;
 	position: absolute;
 	display: block;
 	content: "";
@@ -21,9 +25,11 @@
 	height: 48px;
 	bottom: -24px;
 
-	background: url("../../media/dither.png");
-	background-size: auto 48px;
-	filter: var(--dither-filter);
+	background-color: var(--color-bg);
+	mask-image: url("../../media/dither.png");
+	mask-size: auto 48px;
+	-webkit-mask-image: url("../../media/dither.png");
+	-webkit-mask-size: auto 48px;
 }
 
 

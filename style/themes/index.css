@@ -8,9 +8,6 @@
 
 	--color-text: var(--color-dark);
 	--color-bg: var(--color-light);
-
-	--icon-filter: brightness(0) invert(4%) sepia(3%) saturate(4853%) hue-rotate(202deg) brightness(95%) contrast(81%);
-	--dither-filter: brightness(100);
 }
 
 .dark {
@@ -22,9 +19,6 @@
 
 	--color-text: var(--color-light);
 	--color-bg: var(--color-dark);
-	
-	--icon-filter: brightness(100);
-	--dither-filter: brightness(0) invert(4%) sepia(3%) saturate(4853%) hue-rotate(202deg) brightness(95%) contrast(81%);
 }
 
 

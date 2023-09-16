@@ -18,7 +18,6 @@
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	z-index: -10;
 
 	background-attachment: fixed;
 	background-position: center;
@@ -27,6 +26,7 @@
 }
 
 .hero__overlay {
+	z-index: 1;
 	max-width: var(--content-width);
 	height: 100%;
 	margin: 0 var(--lateral-margin);

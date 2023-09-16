@@ -64,11 +64,11 @@
 .fat-button.primary-button {
 	color: var(--color-bg);
 	background: var(--color-action);
-	border-color: var(--color-action);
+	border: none;
 }
 
 .fat-button.primary-button .icon {
-	filter: var(--icon-action-filter-1);
+	background-color: var(--color-bg);
 }
 
 .fat-button.secondary-button {
@@ -77,5 +77,5 @@
 }
 
 .fat-button.secondary-button .icon {
-	filter: var(--icon-action-filter-2);
+	background-color: var(--color-action);
 }

@@ -23,7 +23,7 @@ html, body {
 
 /* prevent FOUC */
 .unloaded > *:not(script) {
-	display: none;
+	opacity: 0;
 }
 .loaded > * {
 	animation: loading 0.5s;

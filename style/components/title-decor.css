@@ -24,15 +24,15 @@
 }
 
 .title-decor.white {
-	color: white;
+	color: var(--color-light);
 }
 
 .title-decor.white::before {
-	background: white;
+	background: var(--color-light);
 }
 
 .title-decor.white::after {
-	background: white;
+	background: var(--color-light);
 }
 
 
