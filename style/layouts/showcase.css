@@ -7,11 +7,17 @@
 
 .showcase {
 	margin: 32px var(--lateral-margin);
+	margin-bottom: 64px;
 	max-width: var(--content-width);
 }
 
 .showcase .title-decor {
-	margin-bottom: 24px;
+	margin-top: 52px;
+	margin-bottom: 32px;
+}
+
+.showcase p {
+	padding-bottom: 12px;
 }
 
 .showcase .title-decor.underline > h1,
@@ -23,9 +29,12 @@
 	border-bottom: 6px solid var(--color-3);
 }
 
+.title-decor.highlight::before {
+	background: var(--color-3);
+}
+
 .showcase__buttons {
 	display: flex;
-	padding-bottom: 48px;
 	width: 100%;
 	gap: 24px;
 }
