@@ -36,9 +36,11 @@
 }
 
 .header__logo {
+	position: relative;
 	font-size: 1.5rem;
 	line-height: 0.9em;
 	letter-spacing: -1px;
+	top: -4px;
 }
 
 .header__burger {

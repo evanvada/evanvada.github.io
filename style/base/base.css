@@ -57,7 +57,7 @@ body {
 
 * {
 	font-weight: normal;
-	line-height: 1.25em;
+	line-height: 1.5em;
 }
 
 h1 {
@@ -90,7 +90,15 @@ a {
 	text-decoration-line: none;
 }
 
+code {
+	display: inline-block;
+	font-family: var(--font-special);
 
+	padding: 0 4px;
+	font-size: 85%;
+	background-color: rgba(127, 127, 127, 0.1);
+	border-radius: 2px;
+}
 
 
 

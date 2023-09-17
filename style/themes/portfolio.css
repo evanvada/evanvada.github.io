@@ -5,6 +5,7 @@
 	--color-1: #cb694e;
 	--color-2: #195b85;
 	--color-3: #FFAF65;
+	--color-4: #BBE2EE;
 
 	--color-action: var(--color-2);
 	--color-text: var(--color-dark);
@@ -17,8 +18,9 @@
 	--color-1: #cb694e;
 	--color-2: #195b85;
 	--color-3: #FFAF65;
+	--color-4: #195b85;
 
-	--color-action: var(--color-1);
+	--color-action: var(--color-3);
 	--color-text: var(--color-light);
 	--color-bg: var(--color-dark);
 }

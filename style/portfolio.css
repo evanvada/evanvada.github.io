@@ -1,3 +1,29 @@
+:root {
+	--content-width: 1000px;
+}
+
+@media (min-width: calc(1000px + 20vw)) {
+	:root {
+		--lateral-margin: auto;
+	}
+}
+
+
+
+
+.hero {
+	min-height: 75%;
+}
+
+@media (max-width: 640px) {
+	.hero {
+		min-height: 60%;
+	}
+}
+
+
+
+
 
 .hero__bg {
 	background-color: #cb6a50;

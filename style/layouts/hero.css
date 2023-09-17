@@ -62,7 +62,7 @@
 
 
 
-@media (max-width: 500px) {
+@media (max-width: 640px) {
 	.hero {
 		min-height: 60%;
 	}
