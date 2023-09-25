@@ -10,13 +10,6 @@ if (dark_enabled === 'true') {
 	dark_enabled = prefers_dark;
 }
 
-// apply theme
-if (dark_enabled) {
-	document.body.classList.add('dark');
-} else {
-	document.body.classList.add('light');
-}
-
 // change theme onclick funciton
 function toggleTheme() {
 

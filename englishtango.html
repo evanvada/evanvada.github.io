@@ -27,8 +27,14 @@
 	<title>Portfolio</title>
 </head>
 <body class="unloaded">
+	<script>
+		if (localStorage.getItem("dark_enabled") === "true") {
+			document.body.classList.add('dark');
+		} else {
+			document.body.classList.add('light');
+		}
+	</script>
 	<script src="preload.js"></script>
-	<script src="theme.js"></script>
 
 	<header class="header">
 		<a href="index.html" class="header__element"><div class="header__logo">EVAN<br>VADA</div></a>
@@ -118,6 +124,7 @@
 		</nav>
 	</footer>
 	
+	<script src="theme.js"></script>
 	<script src="menu.js"></script>
 </body>
 </html>
